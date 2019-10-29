@@ -1,0 +1,38 @@
+salix repository public key
+
+pubring.gpg
+---------------------------------------------------------------
+pub   1024D/A5629B42 2009-08-22
+uid                  Salix Admin (The Bonsai OS) <salix.admin@gmail.com>
+sub   2048g/9E500BC8 2009-08-22
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+mQGiBEqQbPgRBADTGHvfhWTEpTvdUyVunKMQx0mY3/1Jk9AxxfQX9Qg/0cx6JkVI
+1++gaIU1w7Gqh9A1wRe8dQbVp/kFJPV/cYzjO9syEIQ7vNvbIVAbd85ByZvJVaKq
+pVewtNk7uxQogivhBbNHUCREJpVk+2uyR2F/fkrNPE+fPFaSxmwzE/cFfwCghUio
+UuPIvX1zBuYAa5N2/qtVfqsD/jIUXYnA4LlPZxgQzDfV/On8xCOrDGJJnFTmVTnP
+IiL0WdmXRCd1AXA5Icuyvj8+cAPgZsLMcPWpciElGtXIK9bJUJ8c8DTjlhFuhYyE
+2GbijOdkc67m/ehRtMPojSjTMzciEU3bUn64hO1xEZRvsJKQDWk5yOAdXUVJRef/
+JJrIA/4nw9bQzUDj/FUfN9nPsxaT+NLufEOdcuF5pWODWtKfVMcJ0RVnFdgGHRs/
+ztnrUhPjz3KdbrDqAvbTIsFEGF5V3OZ6PzGoFmErCZ4wc58tzQIs/+QWws7e2Wc0
+fLY6fjEaqTglgr3g0aTzIwrDHUKV4GJB8ml2rFSCCLA3v3QzULQzU2FsaXggQWRt
+aW4gKFRoZSBCb25zYWkgT1MpIDxzYWxpeC5hZG1pbkBnbWFpbC5jb20+iGAEExEC
+ACAFAkqQbPgCGwMGCwkIBwMCBBUCCAMEFgIDAQIeAQIXgAAKCRA+hTX9pWKbQtBm
+AKCFDLNm4u4juYNCixPLS4ilIRId+wCfS7CuO2OFZF36P6/tX8Cb7aSYl3O5Ag0E
+SpBs+BAIALxkxYBYSVcLvuHn+CWH4e9Lof6F82aE+Gu2uvntMwhkifDaDm98TfUd
+RGkArSSUPUlI08tjHCXWRImHuI5E6JH+Jzm6Y2Ue3k40wfJ6cuFkRflmcjuAPWsY
+XhmhyCU/zY1+UVOloiOUyXeJK4jMmKzMWucRl6IgRYjjHATtyvtTtopWxj6qpt1r
+k/y2XlWCSSGjGqBqqBnHoppjCvBwxzy9YKZPd0IY6PZT+nmdIaTpjdg7ZRmHL6rN
+WCTJx51s9aYnAr9NleX3uS9CblGJq6p70fxiBWB4BriNLeqVyl52XheWyQ7eGXoc
+VQ3ltimtwztlgrGAgP57+nfgVsRWQnMAAwUIALaOzo5FEEeiarUJOcMXaHFIYPKA
+7JX6n5pFkrWxvd9RD7UCrqqqjuEWLGFel22gjwFE1RARy6kDxziR5tVl9NWeiza+
+ZjfirtEduthoDS7tZ0mQdx+J800YcH54YSQSqoxAHh3qbUgHBjbrapkLAsLkQ7Ba
+I6GlZ9H1jJsPVw50OaCKPWv1BstRf6rb5Mig4P36y4aH5k4+PMCecgc40kczQH/Y
+ZaajfZnNzYziYUsmlI79NBeWjoOD1TbU0PtCIqpT/AVeNx1jTeK7T5tu0oDLhQtv
+OHbIOUV+fLsK7n2jxsULSn7q2Tm7Tvzzluo8nbsFzBefKAzWgyfue9W1gA6ISQQY
+EQIACQUCSpBs+AIbDAAKCRA+hTX9pWKbQhidAJ9+it2ZZoEzugEY/gEYo/OuOD+z
+FQCePJDUUOXxAwKkQZjm5ykK6lg7LPk=
+=Hysb
+-----END PGP PUBLIC KEY BLOCK-----

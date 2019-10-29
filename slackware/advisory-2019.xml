@@ -1,0 +1,736 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE message:feed PUBLIC '-//tsert.com//DTD Packager 1.0.0//EN' 'message.dtd' [
+<!ENTITY copyright 'Copyright 2014, Tsert.com, All Rights Reserved.'>
+]>
+<message:feed
+    xmlns:xlink='http://www.w3.org/1999/xlink'
+    xmlns:dc='http://purl.org/dc/elements/1.1/'
+    xmlns:tsert='http://tsert.com/dtd/tsert/'
+    xmlns:attr='http://tsert.com/dtd/css/'
+    xmlns:message='http://tsert.com/dtd/message/' message:version='1.0.0'>
+<message:header>
+	<identifier>Breeze::OS Security Advisories 2019</identifier>
+	<title>Security Advisories for our Slackware derivative</title>
+	<storage>permanent</storage>
+	<submission>manual</submission>
+	<engine>brzpkg v2.0.0</engine>
+	<urgency>normal</urgency>
+	<sender url='www.breezeos.com' identifier='dev@breezeos.com'/>
+</message:header>
+
+<message:update>
+<identifier>2019-10-22/SSA:2019-295-01</identifier>
+<title>Security advisory for mozilla-firefox</title>
+<package>mozilla-firefox</package>
+<advisory>SSA:2019-295-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.408819</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-10-20/SSA:2019-293-01</identifier>
+<title>Security advisory for python</title>
+<package>python</package>
+<advisory>SSA:2019-293-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.467193</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-10-14/SSA:2019-287-01</identifier>
+<title>Security advisory for sudo</title>
+<package>sudo</package>
+<advisory>SSA:2019-287-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.422590</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-10-01/SSA:2019-274-01</identifier>
+<title>Security advisory for tcpdump</title>
+<package>tcpdump</package>
+<advisory>SSA:2019-274-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.682249</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-09-25/SSA:2019-268-01</identifier>
+<title>Security advisory for mozilla-thunderbird</title>
+<package>mozilla-thunderbird</package>
+<advisory>SSA:2019-268-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.364859</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-09-16/SSA:2019-259-01</identifier>
+<title>Security advisory for expat</title>
+<package>expat</package>
+<advisory>SSA:2019-259-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.421452</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-09-11/SSA:2019-254-03</identifier>
+<title>Security advisory for openssl</title>
+<package>openssl</package>
+<advisory>SSA:2019-254-03</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.428772</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-09-11/SSA:2019-254-02</identifier>
+<title>Security advisory for mozilla-thunderbird</title>
+<package>mozilla-thunderbird</package>
+<advisory>SSA:2019-254-02</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.364665</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-09-11/SSA:2019-254-01</identifier>
+<title>Security advisory for curl</title>
+<package>curl</package>
+<advisory>SSA:2019-254-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.420362</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-09-04/SSA:2019-247-01</identifier>
+<title>Security advisory for seamonkey</title>
+<package>seamonkey</package>
+<advisory>SSA:2019-247-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.416944</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-08-26/SSA:2019-238-01</identifier>
+<title>Security advisory for Slackware</title>
+<package>Slackware</package>
+<advisory>SSA:2019-238-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.687785</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-08-14/SSA:2019-226-02</identifier>
+<title>Security advisory for mozilla-firefox</title>
+<package>mozilla-firefox</package>
+<advisory>SSA:2019-226-02</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.362237</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-08-13/SSA:2019-226-01</identifier>
+<title>Security advisory for Slackware</title>
+<package>Slackware</package>
+<advisory>SSA:2019-226-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.717544</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-08-07/SSA:2019-220-01</identifier>
+<title>Security advisory for kdelibs</title>
+<package>kdelibs</package>
+<advisory>SSA:2019-220-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.347307</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-08-01/SSA:2019-213-01</identifier>
+<title>Security advisory for mariadb</title>
+<package>mariadb</package>
+<advisory>SSA:2019-213-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.359778</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-07-21/SSA:2019-202-01</identifier>
+<title>Security advisory for Slackware</title>
+<package>Slackware</package>
+<advisory>SSA:2019-202-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.704001</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-07-14/SSA:2019-195-01</identifier>
+<title>Security advisory for bzip2</title>
+<package>bzip2</package>
+<advisory>SSA:2019-195-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.423144</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-07-10/SSA:2019-191-01</identifier>
+<title>Security advisory for mozilla-firefox</title>
+<package>mozilla-firefox</package>
+<advisory>SSA:2019-191-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.427566</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-06-29/SSA:2019-180-01</identifier>
+<title>Security advisory for irssi</title>
+<package>irssi</package>
+<advisory>SSA:2019-180-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.432730</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-06-20/SSA:2019-172-02</identifier>
+<title>Security advisory for mozilla-thunderbird</title>
+<package>mozilla-thunderbird</package>
+<advisory>SSA:2019-172-02</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.368222</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-06-20/SSA:2019-172-01</identifier>
+<title>Security advisory for mozilla-firefox</title>
+<package>mozilla-firefox</package>
+<advisory>SSA:2019-172-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.367854</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-06-20/SSA:2019-171-01</identifier>
+<title>Security advisory for bind</title>
+<package>bind</package>
+<advisory>SSA:2019-171-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.430447</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-06-18/SSA:2019-169-02</identifier>
+<title>Security advisory for mozilla-firefox</title>
+<package>mozilla-firefox</package>
+<advisory>SSA:2019-169-02</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.381835</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-06-18/SSA:2019-169-01</identifier>
+<title>Security advisory for kernel</title>
+<package>kernel</package>
+<advisory>SSA:2019-169-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.1029019</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-06-13/SSA:2019-164-01</identifier>
+<title>Security advisory for mozilla-thunderbird</title>
+<package>mozilla-thunderbird</package>
+<advisory>SSA:2019-164-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.384447</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-05-22/SSA:2019-142-01</identifier>
+<title>Security advisory for curl</title>
+<package>curl</package>
+<advisory>SSA:2019-142-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.424586</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-05-21/SSA:2019-141-01</identifier>
+<title>Security advisory for mozilla-firefox</title>
+<package>mozilla-firefox</package>
+<advisory>SSA:2019-141-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.480262</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-05-15/SSA:2019-135-01</identifier>
+<title>Security advisory for rdesktop</title>
+<package>rdesktop</package>
+<advisory>SSA:2019-135-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.423617</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-04-26/SSA:2019-116-01</identifier>
+<title>Security advisory for bind</title>
+<package>bind</package>
+<advisory>SSA:2019-116-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.433443</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-04-17/SSA:2019-107-01</identifier>
+<title>Security advisory for libpng</title>
+<package>libpng</package>
+<advisory>SSA:2019-107-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.369646</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-04-06/SSA:2019-096-01</identifier>
+<title>Security advisory for httpd</title>
+<package>httpd</package>
+<advisory>SSA:2019-096-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.450188</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-04-05/SSA:2019-095-02</identifier>
+<title>Security advisory for wget</title>
+<package>wget</package>
+<advisory>SSA:2019-095-02</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.342076</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-04-05/SSA:2019-095-01</identifier>
+<title>Security advisory for openjpeg</title>
+<package>openjpeg</package>
+<advisory>SSA:2019-095-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.332670</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-04-02/SSA:2019-092-02</identifier>
+<title>Security advisory for wget</title>
+<package>wget</package>
+<advisory>SSA:2019-092-02</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.327649</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-04-02/SSA:2019-092-01</identifier>
+<title>Security advisory for ghostscript</title>
+<package>ghostscript</package>
+<advisory>SSA:2019-092-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.371149</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-03-27/SSA:2019-086-01</identifier>
+<title>Security advisory for gnutls</title>
+<package>gnutls</package>
+<advisory>SSA:2019-086-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.427640</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-03-25/SSA:2019-084-01</identifier>
+<title>Security advisory for mozilla-thunderbird</title>
+<package>mozilla-thunderbird</package>
+<advisory>SSA:2019-084-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.365256</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-03-22/SSA:2019-081-01</identifier>
+<title>Security advisory for mozilla-firefox</title>
+<package>mozilla-firefox</package>
+<advisory>SSA:2019-081-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.386904</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-03-18/SSA:2019-077-01</identifier>
+<title>Security advisory for libssh2</title>
+<package>libssh2</package>
+<advisory>SSA:2019-077-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.378113</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-03-08/SSA:2019-067-01</identifier>
+<title>Security advisory for ntp</title>
+<package>ntp</package>
+<advisory>SSA:2019-067-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.435412</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-03-03/SSA:2019-062-01</identifier>
+<title>Security advisory for python</title>
+<package>python</package>
+<advisory>SSA:2019-062-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.428727</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-03-01/SSA:2019-060-01</identifier>
+<title>Security advisory for infozip</title>
+<package>infozip</package>
+<advisory>SSA:2019-060-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.453326</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-02-26/slackware 14.2</identifier>
+<title>Security advisory for openssl</title>
+<package>openssl</package>
+<advisory>slackware 14.2</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.361121</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-02-23/SSA:2019-054-01</identifier>
+<title>Security advisory for file</title>
+<package>file</package>
+<advisory>SSA:2019-054-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.415561</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-02-14/SSA:2019-045-01</identifier>
+<title>Security advisory for mozilla-thunderbird</title>
+<package>mozilla-thunderbird</package>
+<advisory>SSA:2019-045-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.396014</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-02-13/SSA:2019-044-01</identifier>
+<title>Security advisory for mozilla-firefox</title>
+<package>mozilla-firefox</package>
+<advisory>SSA:2019-044-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.380697</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-02-12/SSA:2019-043-01</identifier>
+<title>Security advisory for lxc</title>
+<package>lxc</package>
+<advisory>SSA:2019-043-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.394423</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-02-07/SSA:2019-038-01</identifier>
+<title>Security advisory for php</title>
+<package>php</package>
+<advisory>SSA:2019-038-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.489648</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-02-06/SSA:2019-037-01</identifier>
+<title>Security advisory for curl</title>
+<package>curl</package>
+<advisory>SSA:2019-037-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.433275</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-02-01/SSA:2019-032-01</identifier>
+<title>Security advisory for mariadb</title>
+<package>mariadb</package>
+<advisory>SSA:2019-032-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.349465</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-01-30/SSA:2019-030-01</identifier>
+<title>Security advisory for Slackware</title>
+<package>Slackware</package>
+<advisory>SSA:2019-030-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.842527</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-01-29/SSA:2019-029-01</identifier>
+<title>Security advisory for mozilla-firefox</title>
+<package>mozilla-firefox</package>
+<advisory>SSA:2019-029-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.379909</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-01-22/SSA:2019-022-01</identifier>
+<title>Security advisory for httpd</title>
+<package>httpd</package>
+<advisory>SSA:2019-022-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.478594</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-01-13/SSA:2019-013-01</identifier>
+<title>Security advisory for zsh</title>
+<package>zsh</package>
+<advisory>SSA:2019-013-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.407621</content-location>
+</message:update>
+
+<message:update>
+<identifier>2019-01-11/SSA:2019-011-01</identifier>
+<title>Security advisory for irssi</title>
+<package>irssi</package>
+<advisory>SSA:2019-011-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<description></description>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2019&m=slackware-security.478665</content-location>
+</message:update>
+
+</message:feed>

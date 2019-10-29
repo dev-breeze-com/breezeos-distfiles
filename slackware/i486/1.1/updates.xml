@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE message:feed PUBLIC "-//tsert.com//DTD t-feed 1.0.0//EN" "feed.dtd" [
+<!ENTITY copyright 'Copyright 2014, Tsert.com, All Rights Reserved.'>
+]>
+<message:feed
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:tsert="http://purl.org/dtd/tsert/"
+	xmlns:message="http://purl.org/dtd/message/"
+	xmlns:attr="http://tsert.com/dtd/css/"
+	xmlns:feed="http://tsert.com/dtd/" feed:version="1.0.0"
+>
+<feed:header>
+	<identifier>2015-03-14</identifier>
+	<submission>manual</submission>
+	<storage>transient</storage>
+	<type>version</type>
+	<engine>brzpkg v1.1.1</engine>
+	<urgency>low</urgency>
+	<feed:sender url="www.breezeos.com" identifier="dev@breezeos.com"/>
+</feed:header>
+<feed:updates>
+	<feed:update>
+		<identifier>brzpkg</identifier>
+		<version>1.1.3</version>
+		<category>admin</category>
+		<title>Breeze::OS Package management tool</title>
+		<type>stable</type>
+		<arch>i486</arch>
+		<derivative>slackware</derivative>
+		<source>www.breezeos.com/</source>
+		<created>2015-03-16</created>
+		<content-url>http://www.breezeos.com/archives/slackware/i486/1.1/admin/brzpkg_1.1.3_i486.tkg</content-url>
+		<content-type>application/x-breeze-package</content-type>
+		<content-size>150935</content-size>
+		<content-access>public</content-access>
+		<content-hash type="sha1sum" sig="124d94bef2ee31499f339658495b5ccae48fe106"/>
+	</feed:update>
+	<feed:update>
+		<identifier>breeze-scripts</identifier>
+		<version>1.0.1</version>
+		<category>admin</category>
+		<title>Breeze::OS Management Scripts</title>
+		<type>stable</type>
+		<arch>i486</arch>
+		<derivative>slackware</derivative>
+		<source>www.breezeos.com/</source>
+		<created>2015-03-16</created>
+		<content-url>http://www.breezeos.com/archives/slackware/i486/1.1/admin/breeze-scripts_1.0.1_all.tkg</content-url>
+		<content-type>application/x-breeze-package</content-type>
+		<content-size>17077</content-size>
+		<content-access>public</content-access>
+		<content-hash type="sha1sum" sig="8817bbb6b1830da6b70d535e28a9d0b7ae947287"/>
+	</feed:update>
+	<feed:update>
+		<identifier>bsudo</identifier>
+		<version>1.1.1</version>
+		<category>admin</category>
+		<title>Breeze::OS Sudo Tool</title>
+		<type>stable</type>
+		<arch>i486</arch>
+		<derivative>slackware</derivative>
+		<source>www.breezeos.com/</source>
+		<created>2015-03-16</created>
+		<content-url>http://www.breezeos.com/archives/slackware/i486/1.1/admin/bsudo_1.1.1_i486.tkg</content-url>
+		<content-type>application/x-breeze-package</content-type>
+		<content-size>71170</content-size>
+		<content-access>public</content-access>
+		<content-hash type="sha1sum" sig="99d2277b3371d5742c6e8cc21d340f86bff5512a"/>
+	</feed:update>
+</feed:updates>
+</message:feed>

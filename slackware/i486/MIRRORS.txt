@@ -1,0 +1,392 @@
+# Breeze::OS Packager v1.1.5 Package Source File.
+# Copyright 2015, Tsert.Com, All Rights Reserved.
+#
+# Read packages from INSTALL CDROM
+#cdrom:///dev/cdrom / local stable i486 breeze nogpg
+
+# Read packages from INSTALL DVD
+#dvd:///dev/dvd / local stable i486 breeze nogpg
+
+# Read packages from INSTALL ZIP/USBSTICK
+#zip:///dev/sdb / local stable i486 breeze nogpg
+
+# INSTALL CD/DVD/ZIP ISO copied to your hard disk, and mounted.
+#file:///mnt/iso/breeze / local stable i486 breeze nogpg
+
+# Packages from INSTALL CD/DVD/ZIP copied to your hard disk.
+# The file hierarchy must be the same as on the INSTALL ISO
+#file:// /share/archives/ local stable i486 breeze nogpg
+#rsync://master.localdomain /share/archives local stable i486 breeze nogpg
+
+# Remote Master repository running the tFTP server.
+# You must specify the remote domain, if not the localdomain.
+# The file hierarchy must be the same as on the INSTALL ISO
+#tftp://master.localdomain:69/ /archives local stable i486 breeze nogpg
+
+# Remote Master repository running the Breeze::OS searchd server.
+# You must specify the remote domain, if not the localdomain.
+# The file hierarchy must be the same as our repository hierarchy.
+#http://master.localdomain:8012/ /archives local stable i486 breeze nogpg
+
+# Remote Master repository running the Apache or NGinx servers.
+# You must specify the remote domain, if not the localdomain.
+# The file hierarchy must be the same as our repository hierarchy.
+#http://master.localdomain:80/ /archives local stable i486 breeze nogpg
+
+#################################################################
+# The commented-out mirrors were either problematic or slow.
+# You may edit this file to only keep your choice of mirrors.
+#################################################################
+
+COUNTRY=us
+# Site       Archive    Locale    Repository    Arch    Variant
+#----------------------------------------------------------------------
+# www.breezeos.com must be the 1st entry, your default entry should be 2nd.
+http://www.breezeos.com /archives/slackware us stable i486 breeze
+
+https://mirrors.linux-bulgaria.org /slackware/ bg stable i486 slackware 
+https://mirrors.netix.net /slackware/ bg stable i486 slackware 
+https://mirror.csclub.uwaterloo.ca /slackware/ ca stable i486 slackware 
+https://mirror.its.dal.ca /slackware/ ca stable i486 slackware 
+https://slackware.freemirror.org /slackware/ ca stable i486 slackware 
+https://mirrors.ucr.ac.cr /slackware/pub/slackware/ cr stable i486 slackware 
+https://ftp6.gwdg.de /pub/linux/slackware/ de stable i486 slackware 
+https://linux.rz.rub.de /slackware/ de stable i486 slackware 
+https://mirror.de.leaseweb.net /slackware/ de stable i486 slackware 
+https://mirror.netcologne.de /slackware/ de stable i486 slackware 
+https://mirrors.dotsrc.org /slackware/ dk stable i486 slackware 
+https://mirror.cedia.org.ec /slackware/ ec stable i486 slackware 
+https://mirrors.phx.ms /slackware/ fr stable i486 slackware 
+https://lon.mirror.rackspace.com /slackware/ gb stable i486 slackware 
+https://mirror.bytemark.co.uk /slackware/ gb stable i486 slackware 
+https://www.mirrorservice.org /sites/ftp.slackware.com/pub/slackware/ gb stable i486 slackware 
+https://ftp.cc.uoc.gr /mirrors/linux/slackware/ gr stable i486 slackware 
+https://hkg.mirror.rackspace.com /slackware/ hk stable i486 slackware 
+https://mirror-hk.koddos.net /slackware/ hk stable i486 slackware 
+https://ftp.gtx.hu /slackware/ hu stable i486 slackware 
+https://quantum-mirror.hu /mirrors/pub/slackware/ hu stable i486 slackware 
+https://iso.ukdw.ac.id /slackware/ id stable i486 slackware 
+https://repo.ukdw.ac.id /slackware/ id stable i486 slackware 
+https://ba.mirror.garr.it /mirrors/Slackware/ it stable i486 slackware 
+https://mirrors.atviras.lt /slackware/ lt stable i486 slackware 
+https://ftp.nluug.nl /os/Linux/distr/slackware/ nl stable i486 slackware 
+https://mirror.koddos.net /slackware/ nl stable i486 slackware 
+https://mirror.nl.leaseweb.net /slackware/ nl stable i486 slackware 
+https://ftp.slackware.pl /pub/slackware/ pl stable i486 slackware 
+https://sunsite.icm.edu.pl /pub/Linux/slackware/ pl stable i486 slackware 
+https://ftp.rnl.tecnico.ulisboa.pt /pub/slackware/ pt stable i486 slackware 
+https://mirrors.nxthost.com /slackware/ ro stable i486 slackware 
+https://mirror.yandex.ru /slackware/ ru stable i486 slackware 
+https://ftp.acc.umu.se /mirror/slackware.com/ se stable i486 slackware 
+https://mirror.linux.pizza /slackware/ se stable i486 slackware 
+https://mirror.wheel.sk /slackware/ sk stable i486 slackware 
+https://ftp.yzu.edu.tw /Linux/Slackware/ tw stable i486 slackware 
+https://ifconfig.com.ua /slackware/ ua stable i486 slackware 
+https://mirrors.nix.org.ua /linux/slackware/ ua stable i486 slackware 
+https://dfw.mirror.rackspace.com /slackware/ us stable i486 slackware 
+https://ftp.ussg.indiana.edu /linux/slackware/ us stable i486 slackware 
+https://mirror.math.princeton.edu /pub/slackware/ us stable i486 slackware 
+https://mirror.slackbuilds.org /slackware/ us stable i486 slackware 
+https://mirror.us.leaseweb.net /slackware/ us stable i486 slackware 
+https://mirrors.kernel.org /slackware/ us stable i486 slackware 
+https://mirrors.syringanetworks.net /slackware/ us stable i486 slackware 
+https://mirrors.xmission.com /slackware/ us stable i486 slackware 
+https://slackware.absolutehosting.net /pub/slackware/ us stable i486 slackware 
+
+
+http://ftp.swin.edu.au /slackware/ au stable i486 slackware 
+http://mirror.as24220.net /pub/slackware/slackware64-14.2/ au stable i486 slackware 
+http://mirror.internode.on.net /pub/slackware/ au stable i486 slackware 
+http://slackware.mirror.digitalpacific.com.au / au stable i486 slackware 
+http://mirrors.slackware.bg /slackware/ bg stable i486 slackware 
+http://mirrors.unixsol.org /slackware/ bg stable i486 slackware 
+http://slackware.telecoms.bg /slackware/ bg stable i486 slackware 
+http://x.ultranet.biz /slackware/ bg stable i486 slackware 
+http://ftp.slackware-brasil.com.br / br stable i486 slackware 
+http://linorg.usp.br /slackware/ br stable i486 slackware 
+http://slackmirror.cbpf.br /pub/slackware/ br stable i486 slackware 
+http://mirror.datacenter.by /pub/slackware/ by stable i486 slackware 
+http://ftp.linux.cz /pub/linux/slackware/ cz stable i486 slackware 
+http://download.dlackware.com /slackware/ de stable i486 slackware 
+http://ftp.tu-chemnitz.de /pub/linux/slackware/ de stable i486 slackware 
+http://mirrors.nav.ro /slackware/ de stable i486 slackware 
+http://bear.alienbase.nl /mirrors/slackware/ fr stable i486 slackware 
+http://nephtys.lip6.fr /pub/linux/distributions/slackware/ fr stable i486 slackware 
+http://nephtys.lip6.fr /pub/linux/distributions/slackware/ fr stable i486 slackware 
+http://slackware.mirrors.ovh.net /ftp.slackware.com/ fr stable i486 slackware 
+http://slackware.uk /slackware/ gb stable i486 slackware 
+http://ftp.ntua.gr /pub/linux/slackware/ gr stable i486 slackware 
+http://ftp.otenet.gr /linux/slackware/ gr stable i486 slackware 
+http://mirror.slackware.hr /slackware/ hr stable i486 slackware 
+http://kambing.ui.ac.id /slackware/ id stable i486 slackware 
+http://ftp.kddilabs.jp /Linux/distributions/Slackware/ jp stable i486 slackware 
+http://ftp.nara.wide.ad.jp /pub/Linux/slackware/ jp stable i486 slackware 
+http://ftp.riken.jp /Linux/slackware/ jp stable i486 slackware 
+http://slackware.laukas.lt /slackware/ lt stable i486 slackware 
+
+http://mirror.lagoon.nc /pub/slackware/ nc stable i486 slackware 
+http://omegageek.noip.me /mirrors/slackware/ nl stable i486 slackware 
+http://ftp.slackware.no /slackware/ no stable i486 slackware 
+http://ftp.slackware.org.nz /slackware/ nz stable i486 slackware 
+http://mirror.rise.ph /slackware/ ph stable i486 slackware 
+http://mirror.onet.pl /pub/mirrors/slackware/ pl stable i486 slackware 
+http://slackware.tsu.ru /slackware/ ru stable i486 slackware 
+http://download.nus.edu.sg /mirror/slackware/ sg stable i486 slackware 
+http://ftp.linux.org.tr /slackware/ tr stable i486 slackware 
+http://ftp.isu.edu.tw /pub/Linux/Slackware/ tw stable i486 slackware 
+http://ftp.gtlib.gatech.edu /pub/slackware/ us stable i486 slackware 
+http://ftp.slackware.com /pub/slackware/ us stable i486 slackware 
+http://mirror.cs.princeton.edu /pub/mirrors/slackware/ us stable i486 slackware 
+http://mirror.lug.udel.edu /pub/slackware/ us stable i486 slackware 
+http://slackblog.com /slackware/ us stable i486 slackware 
+http://slackware.cs.utah.edu /pub/slackware/ us stable i486 slackware 
+http://slackware.mirrors.tds.net /pub/slackware/ us stable i486 slackware 
+http://ftp.is.co.za /mirror/ftp.slackware.com/pub/ za stable i486 slackware 
+http://ftp.wa.co.za /pub/slackware/ za stable i486 slackware 
+http://slackware.mirror.ac.za / za stable i486 slackware 
+
+
+ftp://ftp.swin.edu.au /slackware/ au stable i486 slackware 
+ftp://mirror.as24220.net /pub/slackware/slackware64-14.2/ au stable i486 slackware 
+ftp://mirror.internode.on.net /pub/slackware/ au stable i486 slackware 
+ftp://syd.mirror.rackspace.com /slackware/ au stable i486 slackware 
+ftp://mirrors.netix.net /slackware/ bg stable i486 slackware 
+ftp://mirrors.slackware.bg /slackware/ bg stable i486 slackware 
+ftp://mirrors.unixsol.org /slackware/ bg stable i486 slackware 
+ftp://slackware.telecoms.bg /slackware/ bg stable i486 slackware 
+ftp://ftp.slackware-brasil.com.br / br stable i486 slackware 
+ftp://linorg.usp.br /slackware/ br stable i486 slackware 
+ftp://mirror.datacenter.by /pub/slackware/ by stable i486 slackware 
+ftp://mirror.csclub.uwaterloo.ca /slackware/ ca stable i486 slackware 
+ftp://mirror.its.dal.ca /slackware/ ca stable i486 slackware 
+ftp://slackware.freemirror.org /slackware/ ca stable i486 slackware 
+ftp://mirrors.ucr.ac.cr /slackware/pub/slackware/ cr stable i486 slackware 
+ftp://ftp.linux.cz /pub/linux/slackware/ cz stable i486 slackware 
+ftp://ftp.tu-chemnitz.de /pub/linux/slackware/ de stable i486 slackware 
+ftp://ftp6.gwdg.de /pub/linux/slackware/ de stable i486 slackware 
+ftp://linux.rz.rub.de /slackware/ de stable i486 slackware 
+ftp://mirror.de.leaseweb.net /slackware/ de stable i486 slackware 
+ftp://mirror.netcologne.de /slackware/ de stable i486 slackware 
+ftp://mirrors.nav.ro /slackware/ de stable i486 slackware 
+ftp://mirrors.dotsrc.org /slackware/ dk stable i486 slackware 
+ftp://mirror.cedia.org.ec /slackware/ ec stable i486 slackware 
+ftp://ftp.mirrorservice.org /sites/ftp.slackware.com/pub/slackware/ gb stable i486 slackware 
+ftp://lon.mirror.rackspace.com /slackware/ gb stable i486 slackware 
+ftp://mirror.bytemark.co.uk /slackware/ gb stable i486 slackware 
+ftp://slackware.uk /slackware/ gb stable i486 slackware 
+ftp://ftp.cc.uoc.gr /mirrors/linux/slackware/ gr stable i486 slackware 
+ftp://ftp.ntua.gr /pub/linux/slackware/ gr stable i486 slackware 
+ftp://ftp.otenet.gr /pub/linux/slackware/ gr stable i486 slackware 
+ftp://hkg.mirror.rackspace.com /slackware/ hk stable i486 slackware 
+ftp://mirror.slackware.hr /slackware/ hr stable i486 slackware 
+ftp://ftp.gtx.hu /slackware/ hu stable i486 slackware 
+ftp://ftp.kddilabs.jp /Linux/distributions/Slackware/ jp stable i486 slackware 
+ftp://ftp.nara.wide.ad.jp /pub/Linux/slackware/ jp stable i486 slackware 
+ftp://ftp.riken.jp /Linux/slackware/ jp stable i486 slackware 
+ftp://mirror.lagoon.nc /pub/slackware/ nc stable i486 slackware 
+ftp://ftp.nluug.nl /pub/os/Linux/distr/slackware/ nl stable i486 slackware 
+ftp://mirror.nl.leaseweb.net /slackware/ nl stable i486 slackware 
+ftp://ftp.slackware.no /slackware/ no stable i486 slackware 
+ftp://ftp.slackware.org.nz /slackware/ nz stable i486 slackware 
+ftp://mirror.rise.ph /slackware/ ph stable i486 slackware 
+ftp://ftp.slackware.pl /pub/slackware/ pl stable i486 slackware 
+ftp://mirror.onet.pl /pub/mirrors/slackware/ pl stable i486 slackware 
+ftp://sunsite.icm.edu.pl /pub/Linux/slackware/ pl stable i486 slackware 
+ftp://ftp.rnl.tecnico.ulisboa.pt /pub/slackware/ pt stable i486 slackware 
+ftp://mirror.yandex.ru /slackware/ ru stable i486 slackware 
+ftp://slackware.tsu.ru /slackware/ ru stable i486 slackware 
+ftp://ftp.acc.umu.se /mirror/slackware.com/ se stable i486 slackware 
+ftp://ftp.linux.org.tr /slackware/ tr stable i486 slackware 
+ftp://ftp.yzu.edu.tw /Linux/Slackware/ tw stable i486 slackware 
+ftp://ifconfig.com.ua /pub/Mirror/slackware/ ua stable i486 slackware 
+ftp://mirrors.nix.org.ua /linux/slackware/ ua stable i486 slackware 
+ftp://dfw.mirror.rackspace.com /slackware/ us stable i486 slackware 
+ftp://ftp.gtlib.gatech.edu /pub/slackware us stable i486 slackware 
+ftp://ftp.lug.udel.edu /pub/slackware/ us stable i486 slackware 
+ftp://ftp.slackware.com /pub/slackware/ us stable i486 slackware 
+ftp://ftp.ussg.indiana.edu /linux/slackware/ us stable i486 slackware 
+ftp://mirror.cs.princeton.edu /pub/mirrors/slackware/ us stable i486 slackware 
+ftp://mirror.slackbuilds.org /pub/slackware/ us stable i486 slackware 
+ftp://mirror.us.leaseweb.net /slackware/ us stable i486 slackware 
+ftp://mirrors.syringanetworks.net /slackware/ us stable i486 slackware 
+ftp://mirrors.xmission.com /slackware/ us stable i486 slackware 
+ftp://slackware.absolutehosting.net /pub/slackware/ us stable i486 slackware 
+ftp://slackware.cs.utah.edu /slackware/ us stable i486 slackware 
+ftp://slackware.mirrors.tds.net /pub/slackware us stable i486 slackware 
+ftp://ftp.is.co.za /mirror/ftp.slackware.com/pub/ za stable i486 slackware 
+ftp://ftp.wa.co.za /pub/slackware/ za stable i486 slackware 
+ftp://slackware.mirror.ac.za / za stable i486 slackware 
+
+
+
+rsync://ftp.swin.edu.au /slackware/ au stable i486 slackware 
+rsync://mirror.internode.on.net /slackware/ au stable i486 slackware 
+rsync://slackware.mirror.digitalpacific.com.au /slackware/ au stable i486 slackware 
+rsync://syd.mirror.rackspace.com /slackware/ au stable i486 slackware 
+rsync://mirrors.linux-bulgaria.org /slackware/ bg stable i486 slackware 
+rsync://mirrors.netix.net /slackware/ bg stable i486 slackware 
+rsync://mirrors.slackware.bg /slackware/ bg stable i486 slackware 
+rsync://mirrors.unixsol.org /slackware/ bg stable i486 slackware 
+rsync://slackware.telecoms.bg /slackware/ bg stable i486 slackware 
+rsync://x.ultranet.biz /slackware/ bg stable i486 slackware 
+rsync://linorg.usp.br /slackware/ br stable i486 slackware 
+rsync://slackmirror.cbpf.br /pub/slackware/ br stable i486 slackware 
+rsync://slackware-brasil.com.br /slackware/ br stable i486 slackware 
+rsync://mirror.datacenter.by /slackware/ by stable i486 slackware 
+rsync://mirror.csclub.uwaterloo.ca /slackware/ ca stable i486 slackware 
+rsync://mirror.its.dal.ca /slackware/ ca stable i486 slackware 
+rsync://slackware.freemirror.org /slackware/ ca stable i486 slackware 
+rsync://mirrors.ucr.ac.cr /slackware/pub/slackware/ cr stable i486 slackware 
+rsync://ftp.linux.cz /pub/linux/slackware/ cz stable i486 slackware 
+rsync://download.dlackware.com /slackware/ de stable i486 slackware 
+rsync://ftp.tu-chemnitz.de /ftp/pub/linux/slackware/ de stable i486 slackware 
+rsync://ftp6.gwdg.de /pub/linux/slackware/ de stable i486 slackware 
+rsync://linux.rz.rub.de /slackware/ de stable i486 slackware 
+rsync://mirror.de.leaseweb.net /slackware/ de stable i486 slackware 
+rsync://mirror.netcologne.de /slackware/ de stable i486 slackware 
+rsync://mirrors.nav.ro /slackware/ de stable i486 slackware 
+rsync://mirrors.dotsrc.org /slackware/ dk stable i486 slackware 
+rsync://mirror.cedia.org.ec /slackware/ ec stable i486 slackware 
+rsync://bear.alienbase.nl /mirrors/slackware/ fr stable i486 slackware 
+rsync://mirrors.phx.ms /slackware/ fr stable i486 slackware 
+rsync://nephtys.lip6.fr /ftp/pub/linux/distributions/slackware/ fr stable i486 slackware 
+rsync://slackware.mirrors.ovh.net /ftp.slackware.com/ fr stable i486 slackware 
+rsync://lon.mirror.rackspace.com /slackware/ gb stable i486 slackware 
+rsync://mirror.bytemark.co.uk /slackware/ gb stable i486 slackware 
+rsync://rsync.mirrorservice.org /ftp.slackware.com/pub/slackware/ gb stable i486 slackware 
+rsync://slackware.uk /slackware/ gb stable i486 slackware 
+rsync://ftp.cc.uoc.gr /slackware/ gr stable i486 slackware 
+rsync://ftp.ntua.gr /slackware/ gr stable i486 slackware 
+rsync://hkg.mirror.rackspace.com /slackware/ hk stable i486 slackware 
+rsync://mirror-hk.koddos.net /slackware/ hk stable i486 slackware 
+rsync://mirror.slackware.hr /slackware/ hr stable i486 slackware 
+rsync://ftp.gtx.hu /slackware/ hu stable i486 slackware 
+rsync://quantum-mirror.hu /slackware/ hu stable i486 slackware 
+rsync://iso.ukdw.ac.id /iso/slackware/ id stable i486 slackware 
+rsync://kambing.ui.ac.id /slackware/ id stable i486 slackware 
+rsync://repo.ukdw.ac.id /slackware/ id stable i486 slackware 
+rsync://ba.mirror.garr.it /Slackware/ it stable i486 slackware 
+rsync://ftp.kddilabs.jp /slackware/ jp stable i486 slackware 
+rsync://ftp.nara.wide.ad.jp /slackware/ jp stable i486 slackware 
+rsync://ftp.riken.go.jp /slackware/ jp stable i486 slackware 
+rsync://mirrors.atviras.lt /slackware/ lt stable i486 slackware 
+rsync://slackware.laukas.lt /slackware/ lt stable i486 slackware 
+rsync://mirror.lagoon.nc /pub/slackware/ nc stable i486 slackware 
+rsync://ftp.nluug.nl /slackware/ nl stable i486 slackware 
+rsync://mirror.koddos.net /slackware/ nl stable i486 slackware 
+rsync://mirror.nl.leaseweb.net /slackware/ nl stable i486 slackware 
+rsync://omegageek.noip.me /mirrors/slackware/ nl stable i486 slackware 
+rsync://rsync.slackware.no /slackware/ no stable i486 slackware 
+rsync://ftp.slackware.org.nz /slackware/ nz stable i486 slackware 
+rsync://mirror.rise.ph /slackware/ ph stable i486 slackware 
+rsync://mirror.onet.pl /pub/mirrors/slackware/ pl stable i486 slackware 
+rsync://slackware.pl /slackware/ pl stable i486 slackware 
+rsync://sunsite.icm.edu.pl /slackware/ pl stable i486 slackware 
+rsync://ftp.rnl.tecnico.ulisboa.pt /pub/slackware/ pt stable i486 slackware 
+rsync://mirrors.nxthost.com /slackware/ ro stable i486 slackware 
+rsync://mirror.yandex.ru /slackware/ ru stable i486 slackware 
+rsync://slackware.tsu.ru /slackware/ ru stable i486 slackware 
+rsync://ftp.acc.umu.se /mirror/slackware.com/ se stable i486 slackware 
+rsync://rsync.linux.pizza /mirror/slackware/ se stable i486 slackware 
+rsync://download.nus.edu.sg /slackware/ sg stable i486 slackware 
+rsync://mirror.wheel.sk /slackware/ sk stable i486 slackware 
+rsync://ftp.linux.org.tr /slackware/ tr stable i486 slackware 
+rsync://ftp.isu.edu.tw /Slackware/ tw stable i486 slackware 
+rsync://ftp.yzu.edu.tw /Linux/Slackware/ tw stable i486 slackware 
+rsync://ifconfig.com.ua /slackware/ ua stable i486 slackware 
+rsync://mirrors.nix.org.ua /slackware/ ua stable i486 slackware 
+rsync://dfw.mirror.rackspace.com /slackware/ us stable i486 slackware 
+rsync://ftp.slackware.com /slackware/ us stable i486 slackware 
+rsync://ftp.ussg.indiana.edu /slackware/ us stable i486 slackware 
+rsync://mirror.cs.princeton.edu /slackware/ us stable i486 slackware 
+rsync://mirror.math.princeton.edu /pub/slackware/ us stable i486 slackware 
+rsync://mirror.slackbuilds.org /slackware/ us stable i486 slackware 
+rsync://mirror.us.leaseweb.net /slackware/ us stable i486 slackware 
+rsync://mirrors.kernel.org /slackware/ us stable i486 slackware 
+rsync://mirrors.syringanetworks.net /slackware/ us stable i486 slackware 
+rsync://mirrors.xmission.com /slackware/ us stable i486 slackware 
+rsync://rsync.gtlib.gatech.edu /slackware/ us stable i486 slackware 
+rsync://rsync.lug.udel.edu /slackware/ us stable i486 slackware 
+rsync://slackblog.com /slackware/ us stable i486 slackware 
+rsync://slackware.absolutehosting.net /slackware/ us stable i486 slackware 
+rsync://slackware.cs.utah.edu /slackware/ us stable i486 slackware 
+rsync://slackware.mirrors.tds.net /slackware/ us stable i486 slackware 
+rsync://ftp.is.co.za /IS-Mirror/ftp.slackware.com/pub/ za stable i486 slackware 
+rsync://ftp.wa.co.za /pub/slackware/ za stable i486 slackware 
+rsync://mirror.ac.za /slackware/ za stable i486 slackware 
+
+
+#################################################################
+# Slackware Binary - Slacky.eu repositories stable
+#################################################################
+http://repository.slacky.eu / it stable i486 slacky gpg
+http://slackware.org.uk /slacky/ uk stable i486 slacky gpg
+http://slacky.nimblex.net / uk stable i486 slacky gpg
+#http://darkstar.ist.utl.pt /slackware/addon/slacky pt stable i486 slacky gpg
+http://www.portaxxv.org /slacky gr stable i486 slacky gpg
+http://slack.isper.sk /pub sk stable i486 slacky gpg
+
+#################################################################
+# Slackware Binary - Salix.org repositories stable
+#################################################################
+http://mirror.inode.at /data/salix at stable i486 salix nogpg
+http://mirror.its.dal.ca /salix cs stable i486 salix nogpg
+http://slackware.org.uk /salix gb stable i486 salix nogpg
+http://www.mirrorservice.org /sites/download.salixos.org gb stable i486 salix nogpg
+http://download.salixos.org / fr stable i486 salix nogpg
+http://salix.enialis.net / fr stable i486 salix nogpg
+http://ftp.cc.uoc.gr /mirrors/linux/salix gr stable i486 salix nogpg
+http://ftp.heanet.ie /pub/salix ie stable i486 salix nogpg
+http://salix.mirror.garr.it /mirrors/salix it stable i486 salix nogpg
+http://ftp.nluug.nl /os/Linux/distr/salix nl stable i486 salix nogpg
+http://ftp.nux.ipb.pt /dists/salix pt stable i486 salix nogpg
+http://ftp.yzu.edu.tw /Linux/salix tw stable i486 salix nogpg
+http://mirrors.nix.org.ua /linux/salixos ua stable i486 salix nogpg
+http://mirrors.xmission.com /salix us stable i486 salix nogpg
+http://www.gtlib.gatech.edu /pub/salixos us stable i486 salix nogpg
+https://mirror.freedif.org /Salix vn stable i486 salix nogpg
+
+http://mirror.inode.at /data/salix at stable i486 slackware nogpg
+http://mirror.its.dal.ca /salix cs stable i486 slackware nogpg
+http://slackware.org.uk /salix gb stable i486 slackware nogpg
+http://www.mirrorservice.org /sites/download.salixos.org gb stable i486 slackware nogpg
+http://download.salixos.org / fr stable i486 slackware nogpg
+http://salix.enialis.net / fr stable i486 slackware nogpg
+http://ftp.cc.uoc.gr /mirrors/linux/salix gr stable i486 slackware nogpg
+http://ftp.heanet.ie /pub/salix ie stable i486 slackware nogpg
+http://salix.mirror.garr.it /mirrors/salix it stable i486 slackware nogpg
+http://ftp.nluug.nl /os/Linux/distr/salix nl stable i486 slackware nogpg
+http://ftp.nux.ipb.pt /dists/salix pt stable i486 slackware nogpg
+http://ftp.yzu.edu.tw /Linux/salix tw stable i486 slackware nogpg
+http://mirrors.nix.org.ua /linux/salixos ua stable i486 slackware nogpg
+http://mirrors.xmission.com /salix us stable i486 slackware nogpg
+http://www.gtlib.gatech.edu /pub/salixos us stable i486 slackware nogpg
+https://mirror.freedif.org /Salix vn stable i486 slackware nogpg
+
+#http://salix.hostingxtreme.com / us stable i486 slackware nogpg
+#http://mirror.chmuri.net /salix pl stable i486 slackware nogpg
+#http://mirror.bjtu.edu.cn /salix cn stable i486 slackware nogpg
+#http://ftp.belnet.be /salixos.org be stable i486 slackware nogpg
+
+ftp://ftp.belnet.be /mirror/salixos.org be stable i486 salix nogpg
+ftp://mirror.its.dal.ca /salix ca stable i486 salix nogpg
+ftp://slackware.org.uk /salix gb stable i486 salix nogpg
+ftp://ftp.mirrorservice.org /sites/download.salixos.org gb stable i486 salix nogpg
+ftp://ftp.cc.uoc.gr /mirrors/linux/salix gr stable i486 salix nogpg
+ftp://ftp.heanet.ie /pub/salix ie stable i486 salix nogpg
+ftp://salix.mirror.garr.it /mirrors/salix it stable i486 salix nogpg
+ftp://ftp.nluug.nl /pub/os/Linux/distr/salix nl stable i486 salix nogpg
+ftp://ftp.yzu.edu.tw /Linux/salix/ tw stable i486 salix nogpg
+ftp://mirrors.nix.org.ua /linux/salixos ua stable i486 salix nogpg
+ftp://mirrors.xmission.com /salix us stable i486 salix nogpg
+ftp://ftp.gtlib.gatech.edu /pub/salixos us stable i486 salix nogpg
+
+#################################################################
+# Slackbuilds Sources - Slackbuilds.org repositories stable
+#################################################################
+https://slackbuilds.org /slackbuilds/ us stable i486 slackbuilds
+http://slackware.uk /slackbuilds.org/ uk stable i486 slackbuilds
+http://mirrors.vbi.vt.edu /linux/slackbuilds/ us stable i486 slackbuilds
+http://taper.alienbase.nl /mirrors/slackbuilds.org/ us stable i486 slackbuilds
+http://mirrors.nix.org.ua /linux/slackware-misc/slackbuilds.org/ us stable i486 slackbuilds
+

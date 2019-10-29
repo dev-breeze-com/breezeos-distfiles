@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE message:feed PUBLIC '-//tsert.com//DTD Packager 1.0.0//EN' 'message.dtd' [
+<!ENTITY copyright 'Copyright 2014, Tsert.com, All Rights Reserved.'>
+]>
+<message
+    xmlns:xlink='http://www.w3.org/1999/xlink'
+    xmlns:dc='http://purl.org/dc/elements/1.1/'
+    xmlns:tsert='http://tsert.com/dtd/tsert/'
+    xmlns:attr='http://tsert.com/dtd/css/'
+    xmlns:message='http://tsert.com/dtd/message/' message:version='1.0.0'>
+
+<message:header>
+	<identifier>Breeze::OS Distro News</identifier>
+	<title>News for Slackware derivative</title>
+	<storage>permanent</storage>
+	<submission>manual</submission>
+	<engine>brzpkg v2.3.0</engine>
+	<urgency>normal</urgency>
+	<sender url='www.breezeos.com' identifier='dev@breezeos.com'/>
+</message:header>
+
+<message:update>
+<identifier>2019-01-13</identifier>
+<title>Distro Annoucement</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+Added a feature to the package manager which set the access permissions
+on some system folders; such as /usr/lib, to read-only on exit.
+</content-body>
+</message:update>
+
+<message:update>
+<identifier>2019-04-01</identifier>
+<title>Distro Annoucement</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+Added aria2c as another downloading utility, in addition to wget and curl.
+The aria2c functionality will first be added to the package manager.
+</content-body>
+</message:update>
+
+<message:update>
+<identifier>2019-04-27</identifier>
+<title>Distro Annoucement</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+Because of an Expose bug in the Xorg server [ devuan ], modified the Login
+manager brzdm. Simplified the display of widgets, text and icons.
+</content-body>
+</message:update>
+
+<message:update>
+<identifier>2019-10-17</identifier>
+<title>Release of Breeze::OS V2.1 [amd64]</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+Release of version 2.1 of the Breeze::OS 64-bit GNU/Linux distribution, which
+is based on the Slackware64 14.2 release. The Xfce [4.12], Mate [1.16],
+Lxde [0.99.2], and KDE [4.14.3] desktops are offered.
+
+The Live DVD ISO will be available for download at https://breezeos.sourceforge.io.
+
+Use the script named d-make-liveusb.sh to write the ISO to a USB flash drive.
+
+The default &lt;b>Breeze::OS init.d system&lt;/b> is now &lt;b>&lt;i>OpenRC&lt;/i>&lt;/b>.
+
+The &lt;b>Breeze::OS installer &lt;i>brzinst&lt;/i>&lt;/b>, now includes an encryption page,
+allowing you to setup disk encryption for your installation. It can also be
+invoked, as just another session, by using our display manager &lt;b>brzdm&lt;/b>.
+
+The package manager is now, also offered in a self-run package; allowing it to
+be run independently of the installed packages. You can download it; and
+execute it in console mode. It is located at
+    https://breezeos.sourceforge.io/distfiles/slackware/amd64/2.1/brzpkg-x64.run
+
+A new set of GnuPG keys were generated for this version.
+</content-body>
+</message:update>
+
+</message>

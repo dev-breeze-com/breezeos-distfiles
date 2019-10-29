@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE message:feed PUBLIC '-//tsert.com//DTD Packager 1.0.0//EN' 'message.dtd' [
+<!ENTITY copyright 'Copyright 2014, Tsert.com, All Rights Reserved.'>
+]>
+<message
+    xmlns:xlink='http://www.w3.org/1999/xlink'
+    xmlns:dc='http://purl.org/dc/elements/1.1/'
+    xmlns:tsert='http://tsert.com/dtd/tsert/'
+    xmlns:attr='http://tsert.com/dtd/css/'
+    xmlns:message='http://tsert.com/dtd/message/' message:version='1.0.0'>
+
+<message:header>
+	<identifier>Breeze::OS Distro News</identifier>
+	<title>News for Slackware derivative</title>
+	<storage>permanent</storage>
+	<submission>manual</submission>
+	<engine>brzpkg v2.3.0</engine>
+	<urgency>normal</urgency>
+	<sender url='www.breezeos.com' identifier='dev@breezeos.com'/>
+</message:header>
+
+<message:update>
+<identifier>2018-04-03</identifier>
+<title>Preliminary Release Date</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+A preliminary date for the new releases of our distro is June 11, 2018.
+All releases will contain the spectre-fixed kernels for the baseline.
+
+Updated kernels for the Slackware versions can be downloaded
+by using the update command of the package manager.
+
+People who subscribe to our distro, will get in addition, the first release
+of our Gtk2-based desktop, named Carbon2 [C2].
+
+Depending on the amount of donations, further releases of the desktop
+using different toolkits [FOX, GTK3, QT4, QT5], may be delayed or accelerated.
+
+The Java version is too be a commercial only release, preliminary called
+Carbon14 [C14].
+</content-body>
+</message:update>
+
+<message:update>
+<identifier>2018-05-15</identifier>
+<title>Portal Announcement</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+Announcing the opening of our Breeze::OS shop, which is attached
+to our main company portal Glyph.Cloud. You will be able to purchase
+cd-roms or flash drives, containing the latest releases of our distribution.
+You will also be able to register to our Breeze::OS subscriptions.
+Other services will also be offered on the Glyph.Cloud portal.
+</content-body>
+</message:update>
+
+<message:update>
+<identifier>2018-05-31</identifier>
+<title>Portal Announcement</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+Our Breeze::OS Glyph.Cloud shop is still under construction.
+We are currently setting up a public key creation feature, to
+secure communications with our prospective clients.
+</content-body>
+</message:update>
+
+<message:update>
+<identifier>2018-06-17</identifier>
+<title>Portal Announcement</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+Announcing that in two weeks; all the work underway to secure our website will be complete.
+Our Breeze::OS shop will then be put online and ready for business. As previously mentioned,
+our Breeze::OS shop is attached to our main company portal Glyph.Cloud.
+</content-body>
+</message:update>
+
+<message:update>
+<identifier>2018-06-21</identifier>
+<title>Portal Announcement</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+Update to the previous post:
+After announcing that in two weeks, all the work underway to secure our website will be complete;
+a possible sabotage of our website and server setup might have taken place. A few more days will
+be required to ascertain to how the sabotage migh t have taken place.
+</content-body>
+</message:update>
+
+<message:update>
+<identifier>2018-07-12</identifier>
+<title>Distro Announcement</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+An updated date for the new releases of our distro is July 29, 2018.
+Releases will contain the spectre-fixed kernels for the baseline.
+</content-body>
+</message:update>
+
+<message:update>
+<identifier>2018-08-29</identifier>
+<title>Distro Announcement</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+Decided to select OpenRC as the Breeze::OS default init system.
+</content-body>
+</message:update>
+
+<message:update>
+<identifier>2018-12-05</identifier>
+<title>Distro Announcement</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+Modified the look-and-feel of the Breeze::OS packager.
+http://www.breezeos.com/images/brzpkg-gui.jpg
+
+Developed a curses interface to the Breeze::OS packager.
+http://www.breezeos.com/images/brzpkg-curses.jpg
+</content-body>
+</message:update>
+
+</message>

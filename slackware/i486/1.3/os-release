@@ -1,0 +1,17 @@
+ID=slackware
+TYPE=binary
+NAME=Breeze::OS
+VERSION=1.3
+MEDIA=DVD
+CHECKSUM=sha256
+ARCHITECTURE=i486
+CODENAME=Gummibear
+SOURCE_DISTRO=slackware
+SOURCE_REPOSITORY=stable
+SOURCE_RELEASE=slackware-14.1
+RELEASE_DATE=2017-05-01
+RELEASE_NAME=Breeze::OS Community Live Edition (Compleat) v1.3
+CPE_NAME=cpe:/o:tsert.com:breeze_os_live:1.3,slackware,i486
+HOME_URL=http://www.breezeos.com/
+SUPPORT_URL=http://www.breezeos.com/support
+BUG_REPORT=mailto:bugs@breezeos.com

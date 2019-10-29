@@ -1,0 +1,359 @@
+# Breeze::OS Packager v1.1.5 Package Source File.
+# Copyright 2015, Tsert.Com, All Rights Reserved.
+#
+# Read packages from INSTALL CDROM
+#cdrom:///dev/cdrom / local stable amd64 breeze nogpg
+
+# Read packages from INSTALL DVD
+#dvd:///dev/dvd / local stable amd64 breeze nogpg
+
+# Read packages from INSTALL ZIP/USBSTICK
+#zip:///dev/sdb / local stable amd64 breeze nogpg
+
+# INSTALL CD/DVD/ZIP ISO copied to your hard disk, and mounted.
+#file:///mnt/iso/breeze / local stable amd64 breeze nogpg
+
+# Packages from INSTALL CD/DVD/ZIP copied to your hard disk.
+# The file hierarchy must be the same as on the INSTALL ISO
+#file:// /share/archives/ local stable amd64 breeze nogpg
+#rsync://master.localdomain /share/archives local stable amd64 breeze nogpg
+
+# Remote Master repository running the tFTP server.
+# You must specify the remote domain, if not the localdomain.
+# The file hierarchy must be the same as on the INSTALL ISO
+#tftp://master.localdomain:69/ /archives local stable amd64 breeze nogpg
+
+# Remote Master repository running the Breeze::OS searchd server.
+# You must specify the remote domain, if not the localdomain.
+# The file hierarchy must be the same as our repository hierarchy.
+#http://master.localdomain:8012/ /archives local stable amd64 breeze nogpg
+
+# Remote Master repository running the Apache or NGinx servers.
+# You must specify the remote domain, if not the localdomain.
+# The file hierarchy must be the same as our repository hierarchy.
+#http://master.localdomain:80/ /archives local stable amd64 breeze nogpg
+
+#################################################################
+# The commented-out mirrors were either problematic or slow.
+# You may edit this file to only keep your choice of mirrors.
+#################################################################
+
+COUNTRY=us
+# Site       Archive    Locale    Repository    Arch    Contrib/Variant
+#----------------------------------------------------------------------
+# www.breezeos.com must be the 1st entry, your default entry should be 2nd.
+
+http://www.breezeos.com /archives/slackware us stable amd64 breeze
+https://sourceforge.net/projects/breezeos/files /archives/slackware us stable amd64 breeze
+
+#################################################################
+# Slackware Binary - Slackware repositories stable
+#################################################################
+https://mirrors.netix.net /slackware/ bg stable amd64 slackware
+https://mirror.csclub.uwaterloo.ca /slackware/ ca stable amd64 slackware
+https://mirror.its.dal.ca /slackware/ ca stable amd64 slackware
+https://ftp6.gwdg.de /pub/linux/slackware/ de stable amd64 slackware
+https://linux.rz.rub.de /slackware/ de stable amd64 slackware
+https://mirror.de.leaseweb.net /slackware/ de stable amd64 slackware
+https://mirror.netcologne.de /slackware/ de stable amd64 slackware
+https://mirrors.dotsrc.org /slackware/ dk stable amd64 slackware
+https://mirror.cedia.org.ec /slackware/ ec stable amd64 slackware
+https://lon.mirror.rackspace.com /slackware/ gb stable amd64 slackware
+https://mirror.bytemark.co.uk /slackware/ gb stable amd64 slackware
+https://www.mirrorservice.org /sites/ftp.slackware.com/pub/slackware/ gb stable amd64 slackware
+https://ftp.cc.uoc.gr /mirrors/linux/slackware/ gr stable amd64 slackware
+https://hkg.mirror.rackspace.com /slackware/ hk stable amd64 slackware
+https://iso.ukdw.ac.id /slackware/ id stable amd64 slackware
+https://repo.ukdw.ac.id /slackware/ id stable amd64 slackware
+https://ftp.heanet.ie /mirrors/ftp.slackware.com/pub/slackware/ ie stable amd64 slackware
+https://ba.mirror.garr.it /mirrors/Slackware/ it stable amd64 slackware
+https://mirrors.atviras.lt /slackware/ lt stable amd64 slackware
+https://mirror.nl.leaseweb.net /slackware/ nl stable amd64 slackware
+https://ftp.slackware.pl /pub/slackware/ pl stable amd64 slackware
+https://sunsite.icm.edu.pl /pub/Linux/slackware/ pl stable amd64 slackware
+https://ftp.rnl.tecnico.ulisboa.pt /pub/slackware/ pt stable amd64 slackware
+https://mirror.corbina.net /slackware/ ru stable amd64 slackware
+https://mirror.yandex.ru /slackware/ ru stable amd64 slackware
+https://ftp.acc.umu.se /mirror/slackware.com/ se stable amd64 slackware
+https://mirror.wheel.sk /slackware/ sk stable amd64 slackware
+https://ftp.yzu.edu.tw /Linux/Slackware/ tw stable amd64 slackware
+https://ifconfig.com.ua /slackware/ ua stable amd64 slackware
+https://mirrors.nix.org.ua /linux/slackware/ ua stable amd64 slackware
+https://dfw.mirror.rackspace.com /slackware/ us stable amd64 slackware
+https://mirror.math.princeton.edu /pub/slackware/ us stable amd64 slackware
+https://mirror.slackbuilds.org /slackware/ us stable amd64 slackware
+https://mirror.us.leaseweb.net /slackware/ us stable amd64 slackware
+https://mirrors.kernel.org /slackware/ us stable amd64 slackware
+https://mirrors.xmission.com /slackware/ us stable amd64 slackware
+
+http://ftp.swin.edu.au /slackware/ au stable amd64 slackware
+http://mirror.as24220.net /pub/slackware/ au stable amd64 slackware
+http://mirror.internode.on.net /pub/slackware/ au stable amd64 slackware
+http://slackware.mirror.digitalpacific.com.au / au stable amd64 slackware
+http://mirrors.unixsol.org /slackware/ bg stable amd64 slackware
+http://slackware.telecoms.bg /slackware/ bg stable amd64 slackware
+http://x.ultranet.biz /slackware/ bg stable amd64 slackware
+http://ftp.slackware-brasil.com.br / br stable amd64 slackware
+http://linorg.usp.br /slackware/ br stable amd64 slackware
+http://slackmirror.cbpf.br /pub/slackware/ br stable amd64 slackware
+http://mirror.datacenter.by /pub/slackware/ by stable amd64 slackware
+http://mirrors.ucr.ac.cr /slackware/pub/slackware/ cr stable amd64 slackware
+http://ftp.linux.cz /pub/linux/slackware/ cz stable amd64 slackware
+http://download.dlackware.com /slackware/ de stable amd64 slackware
+http://ftp.tu-chemnitz.de /pub/linux/slackware/ de stable amd64 slackware
+http://bear.alienbase.nl /mirrors/slackware/ fr stable amd64 slackware
+http://nephtys.lip6.fr /pub/linux/distributions/slackware/ fr stable amd64 slackware
+http://nephtys.lip6.fr /pub/linux/distributions/slackware/ fr stable amd64 slackware
+http://slackware.mirrors.ovh.net /ftp.slackware.com/ fr stable amd64 slackware
+http://slackware.uk /slackware/ gb stable amd64 slackware
+http://ftp.ntua.gr /pub/linux/slackware/ gr stable amd64 slackware
+http://ftp.otenet.gr /linux/slackware/ gr stable amd64 slackware
+http://mirror.slackware.hr /slackware/ hr stable amd64 slackware
+http://kambing.ui.ac.id /slackware/ id stable amd64 slackware
+http://ftp.kddilabs.jp /Linux/distributions/Slackware/ jp stable amd64 slackware
+http://ftp.nara.wide.ad.jp /pub/Linux/slackware/ jp stable amd64 slackware
+http://ftp.riken.jp /Linux/slackware/ jp stable amd64 slackware
+http://slackware.laukas.lt< /a> lt stable amd64 slackware
+http://mirror.lagoon.nc /pub/slackware/ nc stable amd64 slackware
+http://ftp.nluug.nl /os/Linux/distr/slackware/ nl stable amd64 slackware
+http://omegageek.noip.me /mirrors/slackware/ nl stable amd64 slackware
+http://slackware.bokxing-it.nl /mirror/ nl stable amd64 slackware
+http://ftp.slackware.no /slackware/ no stable amd64 slackware
+http://ftp.slackware.org.nz /slackware/ nz stable amd64 slackware
+http://mirror.rise.ph /slackware/ ph stable amd64 slackware
+http://mirror.onet.pl /pub/mirrors/slackware/ pl stable amd64 slackware
+http://slackware.tsu.ru /slackware/ ru stable amd64 slackware
+http://ftp.linux.org.tr /slackware/ tr stable amd64 slackware
+http://ftp.gtlib.gatech.edu /pub/slackware/ us stable amd64 slackware
+http://ftp.slackware.com /pub/slackware/ us stable amd64 slackware
+http://mirror.cs.princeton.edu /pub/mirrors/slackware/ us stable amd64 slackware
+http://mirror.lug.udel.edu /pub/slackware/ us stable amd64 slackware
+http://slackblog.com /slackware/ us stable amd64 slackware
+http://slackware.cs.utah.edu /pub/slackware/ us stable amd64 slackware
+http://slackware.mirrors.tds.net /pub/slackware/ us stable amd64 slackware
+http://ftp.is.co.za /mirror/ftp.slackware.com/pub/ za stable amd64 slackware
+http://ftp.wa.co.za /pub/slackware/ za stable amd64 slackware
+http://slackware.mirror.ac.za / za stable amd64 slackware
+
+ftp://ftp.swin.edu.au /slackware/ au stable amd64 slackware
+ftp://mirror.as24220.net /pub/slackware/ au stable amd64 slackware
+ftp://mirror.internode.on.net /pub/slackware/ au stable amd64 slackware
+ftp://syd.mirror.rackspace.com /slackware/ au stable amd64 slackware
+ftp://mirrors.netix.net /slackware/ bg stable amd64 slackware
+ftp://mirrors.unixsol.org /slackware/ bg stable amd64 slackware
+ftp://slackware.telecoms.bg /slackware/ bg stable amd64 slackware
+ftp://ftp.slackware-brasil.com.br / br stable amd64 slackware
+ftp://linorg.usp.br /slackware/ br stable amd64 slackware
+ftp://mirror.datacenter.by /pub/slackware/ by stable amd64 slackware
+ftp://mirror.csclub.uwaterloo.ca /slackware/ ca stable amd64 slackware
+ftp://mirror.its.dal.ca /slackware/ ca stable amd64 slackware
+ftp://mirrors.ucr.ac.cr /slackware/pub/slackware/ cr stable amd64 slackware
+ftp://ftp.linux.cz /pub/linux/slackware/ cz stable amd64 slackware
+ftp://ftp.tu-chemnitz.de /pub/linux/slackware/ de stable amd64 slackware
+ftp://ftp6.gwdg.de /pub/linux/slackware/ de stable amd64 slackware
+ftp://linux.rz.rub.de /slackware/ de stable amd64 slackware
+ftp://mirror.de.leaseweb.net /slackware/ de stable amd64 slackware
+ftp://mirror.netcologne.de /slackware/ de stable amd64 slackware
+ftp://mirrors.dotsrc.org /slackware/ dk stable amd64 slackware
+ftp://mirror.cedia.org.ec /slackware/ ec stable amd64 slackware
+ftp://ftp.mirrorservice.org /sites/ftp.slackware.com/pub/slackware/ gb stable amd64 slackware
+ftp://lon.mirror.rackspace.com /slackware/ gb stable amd64 slackware
+ftp://mirror.bytemark.co.uk /slackware/ gb stable amd64 slackware
+ftp://slackware.uk /slackware/ gb stable amd64 slackware
+ftp://ftp.cc.uoc.gr /mirrors/linux/slackware/ gr stable amd64 slackware
+ftp://ftp.ntua.gr /pub/linux/slackware/ gr stable amd64 slackware
+ftp://ftp.otenet.gr /pub/linux/slackware/ gr stable amd64 slackware
+ftp://hkg.mirror.rackspace.com /slackware/ hk stable amd64 slackware
+ftp://mirror.slackware.hr /slackware/ hr stable amd64 slackware
+ftp://ftp.heanet.ie /mirrors/ftp.slackware.com/pub/slackware/ ie stable amd64 slackware
+ftp://ftp.kddilabs.jp /Linux/distributions/Slackware/ jp stable amd64 slackware
+ftp://ftp.nara.wide.ad.jp /pub/Linux/slackware/ jp stable amd64 slackware
+ftp://ftp.riken.jp /Linux/slackware/ jp stable amd64 slackware
+ftp://mirror.lagoon.nc /pub/slackware/ nc stable amd64 slackware
+ftp://ftp.nluug.nl /pub/os/Linux/distr/slackware/ nl stable amd64 slackware
+ftp://mirror.nl.leaseweb.net /slackware/ nl stable amd64 slackware
+ftp://ftp.slackware.no /slackware/ no stable amd64 slackware
+ftp://ftp.slackware.org.nz /slackware/ nz stable amd64 slackware
+ftp://mirror.rise.ph /slackware/ ph stable amd64 slackware
+ftp://ftp.slackware.pl /pub/slackware/ pl stable amd64 slackware
+ftp://mirror.onet.pl /pub/mirrors/slackware/ pl stable amd64 slackware
+ftp://sunsite.icm.edu.pl /pub/Linux/slackware/ pl stable amd64 slackware
+ftp://ftp.rnl.tecnico.ulisboa.pt /pub/slackware/ pt stable amd64 slackware
+ftp://mirror.corbina.net /slackware/ ru stable amd64 slackware
+ftp://mirror.yandex.ru /slackware/ ru stable amd64 slackware
+ftp://slackware.tsu.ru /slackware/ ru stable amd64 slackware
+ftp://ftp.linux.org.tr /slackware/ tr stable amd64 slackware
+ftp://ftp.yzu.edu.tw /Linux/Slackware/ tw stable amd64 slackware
+ftp://ifconfig.com.ua /pub/Mirror/slackware/ ua stable amd64 slackware
+ftp://mirrors.nix.org.ua /linux/slackware/ ua stable amd64 slackware
+ftp://dfw.mirror.rackspace.com /slackware/ us stable amd64 slackware
+ftp://ftp.gtlib.gatech.edu /pub/slackware us stable amd64 slackware
+ftp://ftp.lug.udel.edu /pub/slackware/ us stable amd64 slackware
+ftp://ftp.slackware.com /pub/slackware/ us stable amd64 slackware
+ftp://mirror.cs.princeton.edu /pub/mirrors/slackware/ us stable amd64 slackware
+ftp://mirror.slackbuilds.org /pub/slackware/ us stable amd64 slackware
+ftp://mirror.us.leaseweb.net /slackware/ us stable amd64 slackware
+ftp://mirrors.xmission.com /slackware/ us stable amd64 slackware
+ftp://slackware.cs.utah.edu /slackware/ us stable amd64 slackware
+ftp://slackware.mirrors.tds.net /pub/slackware us stable amd64 slackware
+ftp://ftp.is.co.za /mirror/ftp.slackware.com/pub/ za stable amd64 slackware
+ftp://ftp.wa.co.za /pub/slackware/ za stable amd64 slackware
+ftp://slackware.mirror.ac.za / za stable amd64 slackware
+
+rsync://ftp.swin.edu.au /slackware/ au stable amd64 slackware
+rsync://mirror.internode.on.net /slackware/ au stable amd64 slackware
+rsync://slackware.mirror.digitalpacific.com.au /slackware/ au stable amd64 slackware
+rsync://syd.mirror.rackspace.com /slackware/ au stable amd64 slackware
+rsync://mirrors.netix.net /slackware/ bg stable amd64 slackware
+rsync://mirrors.unixsol.org /slackware/ bg stable amd64 slackware
+rsync://slackware.telecoms.bg /slackware/ bg stable amd64 slackware
+rsync://x.ultranet.biz /slackware/ bg stable amd64 slackware
+rsync://linorg.usp.br /slackware/ br stable amd64 slackware
+rsync://slackmirror.cbpf.br /pub/slackware/ br stable amd64 slackware
+rsync://slackware-brasil.com.br /slackware/ br stable amd64 slackware
+rsync://mirror.datacenter.by /slackware/ by stable amd64 slackware
+rsync://mirror.csclub.uwaterloo.ca /slackware/ ca stable amd64 slackware
+rsync://mirror.its.dal.ca /slackware/ ca stable amd64 slackware
+rsync://mirrors.ucr.ac.cr /slackware/pub/slackware/ cr stable amd64 slackware
+rsync://ftp.linux.cz /pub/linux/slackware/ cz stable amd64 slackware
+rsync://download.dlackware.com /slackware/ de stable amd64 slackware
+rsync://ftp.tu-chemnitz.de /ftp/pub/linux/slackware/ de stable amd64 slackware
+rsync://ftp6.gwdg.de /pub/linux/slackware/ de stable amd64 slackware
+rsync://linux.rz.rub.de /slackware/ de stable amd64 slackware
+rsync://mirror.de.leaseweb.net /slackware/ de stable amd64 slackware
+rsync://mirror.netcologne.de /slackware/ de stable amd64 slackware
+rsync://mirrors.dotsrc.org /slackware/ dk stable amd64 slackware
+rsync://mirror.cedia.org.ec /slackware/ ec stable amd64 slackware
+rsync://bear.alienbase.nl /mirrors/slackware/ fr stable amd64 slackware
+rsync://nephtys.lip6.fr /ftp/pub/linux/distributions/slackware/ fr stable amd64 slackware
+rsync://slackware.mirrors.ovh.net /ftp.slackware.com/ fr stable amd64 slackware
+rsync://lon.mirror.rackspace.com /slackware/ gb stable amd64 slackware
+rsync://mirror.bytemark.co.uk /slackware/ gb stable amd64 slackware
+rsync://rsync.mirrorservice.org /ftp.slackware.com/pub/slackware/ gb stable amd64 slackware
+rsync://slackware.uk /slackware/ gb stable amd64 slackware
+rsync://ftp.cc.uoc.gr /slackware/ gr stable amd64 slackware
+rsync://ftp.ntua.gr /slackware/ gr stable amd64 slackware
+rsync://hkg.mirror.rackspace.com /slackware/ hk stable amd64 slackware
+rsync://mirror.slackware.hr /slackware/ hr stable amd64 slackware
+rsync://iso.ukdw.ac.id /iso/slackware/ id stable amd64 slackware
+rsync://kambing.ui.ac.id /slackware/ id stable amd64 slackware
+rsync://repo.ukdw.ac.id /slackware/ id stable amd64 slackware
+rsync://ftp.heanet.ie /mirrors/ftp.slackware.com/pub/slackware/ ie stable amd64 slackware
+rsync://ba.mirror.garr.it /Slackware/ it stable amd64 slackware
+rsync://ftp.kddilabs.jp /slackware/ jp stable amd64 slackware
+rsync://ftp.nara.wide.ad.jp /slackware/ jp stable amd64 slackware
+rsync://ftp.riken.go.jp /slackware/ jp stable amd64 slackware
+rsync://mirrors.atviras.lt /slackware/ lt stable amd64 slackware
+rsync://slackware.laukas.lt /slackware/ lt stable amd64 slackware
+rsync://mirror.lagoon.nc /pub/slackware/ nc stable amd64 slackware
+rsync://ftp.nluug.nl /slackware/ nl stable amd64 slackware
+rsync://mirror.nl.leaseweb.net /slackware/ nl stable amd64 slackware
+rsync://omegageek.noip.me /mirrors/slackware/ nl stable amd64 slackware
+rsync://slackware.bokxing-it.nl /slackware/ nl stable amd64 slackware
+rsync://rsync.slackware.no /slackware/ no stable amd64 slackware
+rsync://ftp.slackware.org.nz /slackware/ nz stable amd64 slackware
+rsync://mirror.rise.ph /slackware/ ph stable amd64 slackware
+rsync://mirror.onet.pl /pub/mirrors/slackware/ pl stable amd64 slackware
+rsync://slackware.pl /slackware/ pl stable amd64 slackware
+rsync://sunsite.icm.edu.pl /slackware/ pl stable amd64 slackware
+rsync://ftp.rnl.tecnico.ulisboa.pt /pub/slackware/ pt stable amd64 slackware
+rsync://mirror.corbina.net /slackware/ ru stable amd64 slackware
+rsync://mirror.yandex.ru /slackware/ ru stable amd64 slackware
+rsync://slackware.tsu.ru /slackware/ ru stable amd64 slackware
+rsync://ftp.acc.umu.se /mirror/slackware.com/ se stable amd64 slackware
+rsync://mirror.wheel.sk /slackware/ sk stable amd64 slackware
+rsync://ftp.linux.org.tr /slackware/ tr stable amd64 slackware
+rsync://ftp.yzu.edu.tw /Linux/Slackware/ tw stable amd64 slackware
+rsync://ifconfig.com.ua /slackware/ ua stable amd64 slackware
+rsync://mirrors.nix.org.ua /slackware/ ua stable amd64 slackware
+rsync://dfw.mirror.rackspace.com /slackware/ us stable amd64 slackware
+rsync://ftp.slackware.com /slackware/ us stable amd64 slackware
+rsync://mirror.cs.princeton.edu /slackware/ us stable amd64 slackware
+rsync://mirror.math.princeton.edu /pub/slackware/ us stable amd64 slackware
+rsync://mirror.slackbuilds.org /slackware/ us stable amd64 slackware
+rsync://mirror.us.leaseweb.net /slackware/ us stable amd64 slackware
+rsync://mirrors.kernel.org /slackware/ us stable amd64 slackware
+rsync://mirrors.xmission.com /slackware/ us stable amd64 slackware
+rsync://rsync.gtlib.gatech.edu /slackware/ us stable amd64 slackware
+rsync://rsync.lug.udel.edu /slackware/ us stable amd64 slackware
+rsync://slackblog.com /slackware/ us stable amd64 slackware
+rsync://slackware.cs.utah.edu /slackware/ us stable amd64 slackware
+rsync://slackware.mirrors.tds.net /slackware/ us stable amd64 slackware
+rsync://ftp.is.co.za /IS-Mirror/ftp.slackware.com/pub/ za stable amd64 slackware
+rsync://ftp.wa.co.za /pub/slackware/ za stable amd64 slackware
+rsync://mirror.ac.za /slackware/ za stable amd64 slackware
+
+#################################################################
+# Slackware Binary - Slacky.eu repositories stable
+#################################################################
+http://repository.slacky.eu / it stable amd64 slacky gpg
+http://slackware.org.uk /slacky/ uk stable amd64 slacky gpg
+http://slacky.nimblex.net / uk stable amd64 slacky gpg
+#http://darkstar.ist.utl.pt /slackware/addon/slacky pt stable amd64 slacky gpg
+http://www.portaxxv.org /slacky gr stable amd64 slacky gpg
+http://slack.isper.sk /pub sk stable amd64 slacky gpg
+
+#################################################################
+# Slackware Binary - Salix.org repositories stable
+#################################################################
+http://mirror.inode.at /data/salix at stable amd64 slackware nogpg
+http://ftp.belnet.be /salixos.org be stable amd64 slackware nogpg
+http://mirror.its.dal.ca /salix cs stable amd64 slackware nogpg
+http://mirror.bjtu.edu.cn /salix cn stable amd64 slackware nogpg
+http://slackware.org.uk /salix gb stable amd64 slackware nogpg
+http://www.mirrorservice.org /sites/download.salixos.org gb stable amd64 slackware nogpg
+http://download.salixos.org / fr stable amd64 slackware nogpg
+http://salix.enialis.net / fr stable amd64 slackware nogpg
+http://ftp.cc.uoc.gr /mirrors/linux/salix gr stable amd64 slackware nogpg
+http://ftp.heanet.ie /pub/salix ie stable amd64 slackware nogpg
+http://salix.mirror.garr.it /mirrors/salix it stable amd64 slackware nogpg
+http://ftp.nluug.nl /os/Linux/distr/salix nl stable amd64 slackware nogpg
+http://mirror.chmuri.net /salix pl stable amd64 slackware nogpg
+http://ftp.nux.ipb.pt /dists/salix pt stable amd64 slackware nogpg
+http://ftp.yzu.edu.tw /Linux/salix tw stable amd64 slackware nogpg
+http://mirrors.nix.org.ua /linux/salixos ua stable amd64 slackware nogpg
+http://salix.hostingxtreme.com / us stable amd64 slackware nogpg
+http://mirrors.xmission.com /salix us stable amd64 slackware nogpg
+#http://www.gtlib.gatech.edu /pub/salixos us stable amd64 slackware nogpg
+
+http://mirror.inode.at /data/salix at stable amd64 salix nogpg
+http://ftp.belnet.be /salixos.org be stable amd64 salix nogpg
+http://mirror.its.dal.ca /salix cs stable amd64 salix nogpg
+http://mirror.bjtu.edu.cn /salix cn stable amd64 salix nogpg
+http://slackware.org.uk /salix gb stable amd64 salix nogpg
+http://www.mirrorservice.org /sites/download.salixos.org gb stable amd64 salix nogpg
+http://download.salixos.org / fr stable amd64 salix nogpg
+http://salix.enialis.net / fr stable amd64 salix nogpg
+http://ftp.cc.uoc.gr /mirrors/linux/salix gr stable amd64 salix nogpg
+http://ftp.heanet.ie /pub/salix ie stable amd64 salix nogpg
+http://salix.mirror.garr.it /mirrors/salix it stable amd64 salix nogpg
+http://ftp.nluug.nl /os/Linux/distr/salix nl stable amd64 salix nogpg
+http://mirror.chmuri.net /salix pl stable amd64 salix nogpg
+http://ftp.nux.ipb.pt /dists/salix pt stable amd64 salix nogpg
+http://ftp.yzu.edu.tw /Linux/salix tw stable amd64 salix nogpg
+http://mirrors.nix.org.ua /linux/salixos ua stable amd64 salix nogpg
+http://salix.hostingxtreme.com / us stable amd64 salix nogpg
+http://mirrors.xmission.com /salix us stable amd64 salix nogpg
+#http://www.gtlib.gatech.edu /pub/salixos us stable amd64 salix nogpg
+
+ftp://ftp.belnet.be /mirror/salixos.org be stable amd64 salix nogpg
+ftp://mirror.its.dal.ca /salix ca stable amd64 salix nogpg
+ftp://slackware.org.uk /salix gb stable amd64 salix nogpg
+ftp://ftp.mirrorservice.org /sites/download.salixos.org gb stable amd64 salix nogpg
+ftp://ftp.cc.uoc.gr /mirrors/linux/salix gr stable amd64 salix nogpg
+ftp://ftp.heanet.ie /pub/salix ie stable amd64 salix nogpg
+ftp://salix.mirror.garr.it /mirrors/salix it stable amd64 salix nogpg
+ftp://ftp.nluug.nl /pub/os/Linux/distr/salix nl stable amd64 salix nogpg
+ftp://ftp.yzu.edu.tw /Linux/salix/ tw stable amd64 salix nogpg
+ftp://mirrors.nix.org.ua /linux/salixos ua stable amd64 salix nogpg
+ftp://mirrors.xmission.com /salix us stable amd64 salix nogpg
+#ftp://ftp.gtlib.gatech.edu /pub/salixos us stable amd64 salix nogpg
+
+#################################################################
+# Slackbuilds Sources - Slackbuilds.org repositories stable
+#################################################################
+https://slackbuilds.org /slackbuilds/ us stable amd64 slackbuilds
+http://slackware.uk /slackbuilds.org/ uk stable amd64 slackbuilds
+http://mirrors.vbi.vt.edu /linux/slackbuilds/ us stable amd64 slackbuilds
+http://taper.alienbase.nl /mirrors/slackbuilds.org/ us stable amd64 slackbuilds
+http://mirrors.nix.org.ua /linux/slackware-misc/slackbuilds.org/ us stable amd64 slackbuilds

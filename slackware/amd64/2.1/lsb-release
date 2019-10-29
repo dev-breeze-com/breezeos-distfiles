@@ -1,0 +1,5 @@
+DISTRIB_ID=breezeos
+DISTRIB_CODENAME=Yogibear
+DISTRIB_DESCRIPTION="Breeze::OS Community Edition (Xfce) GNU/Linux"
+DISTRIB_RELEASE=2.1 (Community Edition Xfce GNU/Linux 64-bit) -- release build 20191017"
+X_INSTALLATION_MEDIUM=cdrom,zip

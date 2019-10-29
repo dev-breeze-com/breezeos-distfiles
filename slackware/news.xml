@@ -1,0 +1,616 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE message:feed PUBLIC '-//tsert.com//DTD Packager 1.0.0//EN' 'message.dtd' [
+<!ENTITY copyright 'Copyright 2014, Tsert.com, All Rights Reserved.'>
+]>
+<message
+    xmlns:xlink='http://www.w3.org/1999/xlink'
+    xmlns:dc='http://purl.org/dc/elements/1.1/'
+    xmlns:tsert='http://tsert.com/dtd/tsert/'
+    xmlns:attr='http://tsert.com/dtd/css/'
+    xmlns:message='http://tsert.com/dtd/message/' message:version='1.0.0'>
+
+<message:header>
+	<identifier>Breeze::OS Distro News</identifier>
+	<title>News for Slackware derivative</title>
+	<storage>permanent</storage>
+	<submission>manual</submission>
+	<engine>brzpkg v2.3.0</engine>
+	<urgency>normal</urgency>
+	<sender url='www.breezeos.com' identifier='dev@breezeos.com'/>
+</message:header>
+
+<message:update>
+<identifier>2014-09-08</identifier>
+<title>Release of Breeze::OS v1.0</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+Initial release of the Breeze::OS GNU/Linux distribution which is based
+on the Slackware 14.1 release. Only the Xfce and KDE flavors are offered
+for the initial release. Each flavor comes with either, the i486 or PAE
+linux kernels. All ISO(s) can be downloaded from our website
+at http://tsert.com/breeze/download.html
+</content-body>
+</message:update>
+
+<message:update>
+<identifier>2014-10-02</identifier>
+<title>X11/Xorg Bug Report for Breeze::OS v1.0</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+A weird bug has surfaced in our X11 installation. The bug seems to cause
+the X procotol for mouse inputs, to grab focus in a particular window; and,
+to refuse to release it. The same bug appears in all our installations, and
+on several computers. We have not succeeded in resolving the issue.
+
+A, temporary, solution is to logout, and login a second time; which seems to
+make the X11 installation more stable.
+</content-body>
+</message:update>
+
+<message:update>
+<identifier>2014-12-17</identifier>
+<title>Upcoming release of Breeze::OS v1.1</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+The next release of the Breeze::OS GNU/Linux distribution, which is still
+based on the Slackware 14.1 release; will be available for download in
+January 2015.
+
+The Mate flavor, taken from the Salix repositories, was added to the set of
+available flavors, i.e. Xfce and KDE.
+
+Each flavor comes with either, the i486 or PAE Linux kernels.
+All ISO(s) will be available for download from our website at
+http://tsert.com/breeze/download.html or from SourceForge at
+http://breezeos.sourceforge.net.
+
+New features have been added to the package manager. Other features
+have been removed; such as, updating from the current repository.
+
+It is now easier to update packages, just by issuing the command:
+	't-pkg -U &lt;package name&gt;'
+It is no longer necessary to wait for an RSS/Message feed from our website.
+It is also easier to upgrade, just by issuing the command 't-pkg --upgrade'.
+
+</content-body>
+</message:update>
+
+<message:update>
+<identifier>2014-12-27</identifier>
+<title>Booting problems with uploaded ISOs for i486 kernels</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+For some reasons, the ISO(s), which were burned with non-PAE i486 kernels,
+no longer are able to boot. Booting simply stops after the Linux logo is
+displayed. The ISO(s), which were burned with PAE i486 kernels, do boot; but,
+the X11 installer seizes, refusing to recognize keyboard and mouse inputs.
+
+The above problems were detected; because, we were unable to burn working
+PAE and non-PAE i486 ISO(s) for release 1.1; even though, the same code
+base of our installer was being used.
+
+It is what caused us to examine the ISO(s) released in September 8, 2014.
+As a consequence, we may reboot v1.0, by turning v1.1 into v1.0.
+
+The problem listed above with the non-PAE kernels does not occur; when the
+same kernel is used to boot within a normal desktop environment.
+</content-body>
+</message:update>
+
+<message:update>
+<identifier>2014-12-30</identifier>
+<title>Major VFS problem detected</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+In our installer development environment, we detected a weird filesystem
+bug, which caused files to revert to previous versions. At first, we thought
+that a failing drive was the problem; but, since the problem was detected
+on all our computers running Linux, we could only assume that a VFS bug was
+the culprit. Our computers are running Debian wheezy, Slackware 14.0, and
+Slackware 14.1, respectively.
+
+The problem was detected by randomizing the source code file names, and
+obfuscating the source code within the files, of our installer. We then,
+created a compilation folder, and iteratively copied the randomized and
+obfuscated source code files onto the same folder, on every compilation.
+
+After a few iterations, the Gnu make compilation tool would encounter an
+error, because of undefined symbols, which could only be found in a previous
+version of an obfuscated source code file. This problem definitely proved
+that the VFS was the culprit. Somehow the same inode is being re-used, as
+a new file gets created.
+
+We will upload a script to detect the problem in a few weeks, as we release
+the rebooted version 1.0 of our Breeze::OS distro.
+
+</content-body>
+</message:update>
+
+<message:update>
+<identifier>2015-01-17</identifier>
+<title>Another extremely weird bug !</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+The code, below, which was compiled with GCC 4.7.1 and GCC 4.8.2
+yielded the same correct results with lower_bound indicating the
+right entry in the std::vector of items; even though  it should have
+failed, because the wrong constructor for SetItem was being called.
+After rebooting the system, the right behavior was then exhibited;
+the call failed as expected.
+
+I have currently no explanation for the bug. Again the bug appeared
+on two separate computers; one running Slackware 14.0, and the other
+Slackware 14.1.
+
+bool Set::search(const String&amp; name, SetItem **item) const
+{
+	SetItem key( name );
+	LessThan less( "id" );
+
+	const_iterator it = std::lower_bound( begin(), end(), &amp;key, less );
+
+	if (it != Set::end()) {
+		String found((*it)->getName());
+
+		std::cout &lt;&lt; found &lt;&lt; "\n";
+
+		if (found == name) {
+			(*item) = (*it);
+			return true;
+		}
+	}
+	return false;
+}
+</content-body>
+</message:update>
+
+<message:update>
+<identifier>2015-02-01</identifier>
+<title>Update News (version 1.1)</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+A slight delay in the release of version 1.1; we decided to offer
+the most up-to-date Slackware 14.1 patches. 
+
+We also added a simpler way to manage services, with the use of
+a service manager, called brzctl. The service manager is for now,
+just a managing application; but, we intend to turn it into an
+OpenRC-type daemon and service manager in the future. 
+
+The operations allowed by brzctl are: enabling and disabling services,
+adding and removing services, starting, stopping, and reloading services,
+and setting options for services.
+</content-body>
+</message:update>
+
+<message:update>
+<identifier>2015-03-09</identifier>
+<title>Update News (version 1.1)</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+Point release 1.1 of the Breeze::OS GNU/Linux distribution which is based
+on the Slackware 14.1 release. The Xfce, KDE, and Mate flavors are offered.
+The Mate flavor is from the Salix repositories.
+
+No ISO(s), for version 1.1, are currently available; because of the booting
+problem mentioned in the news item '2014-12-27'. We decided in the meantime
+to try a Live-DVD and a netinstall release for April 2015.
+
+First download the upgrade script and signature in the same folder.
+   wget http://www.breezeos.com/distfiles/slackware/i486/1.1/brz-upgrade.sh
+   wget http://www.breezeos.com/distfiles/slackware/i486/1.1/brz-upgrade.sh.asc
+
+Then, invoke the script with the option '-slack' if you are upgrading from
+a Slackware 14.0/14.1 distro; or without option, if you have our distro
+installed on your computer.
+</content-body>
+</message:update>
+
+<message:update>
+<identifier>2016-04-07</identifier>
+<title>Upcoming release of 64-bit version of Breeze::OS</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+The upcoming release of the &lt;b>64-bit&lt;/b> Breeze::OS GNU/Linux, based on
+the Slackware64 14.1 release; will be available for download in April 2016.
+
+In most part, the same set of packages that are offered on the &lt;b>32-bit&lt;/b> release
+are also offered in the &lt;b>64-bit&lt;/b> release; including, our own set of tools
+and applications.
+
+A &lt;b>Live DVD&lt;/b>, with scripts derived from Slackware-Live, is being prepared.
+The scripts, renamed &lt;i>BreezeOS-Live&lt;/i>, will be hosted on GitHub.
+</content-body>
+</message:update>
+
+<message:update>
+<identifier>2016-04-11</identifier>
+<title>Release of Breeze::OS v1.2</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+This release is the &lt;b>last and long-term&lt;/b> point release for versions 1.x; and it
+is still based on the Slackware 14.1 release, with the Xfce, KDE, and Mate
+desktops being offered, It contains packages, i.e. &lt;i>OpenOffice 4.1.2&lt;/i>, which were
+updated for either enhancements, bugs, or security issues. It also contains a new
+display manager called &lt;b>brzdm&lt;/b> derived from &lt;b>Slim&lt;/b>. The source code for &lt;b>brzdm&lt;/b> will be
+hosted at https://www.github.com. The Linux kernel 4.1.17 has also been added.
+
+The main new features, which have been added to the package manager, are the
+facility to &lt;b>websync&lt;/b> your installation with updated binary packages; as well as,
+the capability to compile from source using &lt;i>slackbuilds&lt;/i>. An additional feature
+was added to view &lt;b>security advisory&lt;/b> from &lt;b>Slackware&lt;/b>. Each package, by default,
+has its checksum and &lt;i>GnuPG&lt;/i> signature verified; you, now, must &lt;b>turn off&lt;/b>
+verification, when desired.
+
+You can, now, just issue the command &lt;b>brzpkg --websync&lt;/b> to download and install
+updated binary packages; &lt;b>brzpkg -A&lt;/b> to view security advisory news; and,
+&lt;b>brzpkg -B &lt;pkg>&lt;/b> or &lt;b>brzpkg -I -b &lt;pkg>&lt;/b> to install a package from source.
+
+Conflict resolution was not done for the &lt;b>slackbuilds&lt;/b> packages; therefore,
+you must check for conflicts between packages yourself, before compiling.
+
+I you have not upgraded to version 1.1; you must first execute the following:
+   wget http://www.breezeos.com/distfiles/slackware/i486/1.2/brz-upgrade.sh
+   wget http://www.breezeos.com/distfiles/slackware/i486/1.2/brz-upgrade.sh.asc
+
+Then, invoke the script with the option '-slack' if you are upgrading from
+a Slackware 14.0/14.1 distro; or without option, if you have our distro
+installed on your computer.
+
+If you are running our distro; then, you &lt;b>must first update&lt;/b> the packager itself,
+by invoking 'brzpkg --update brzpkg'; then, 'brzpkg --force --upgrade 1.2' to
+proceed with the upgrade.
+
+CD ISO(s), for version 1.2, will be made available in the Spring of 2016.
+</content-body>
+</message:update>
+
+<message:update>
+<identifier>2016-04-20</identifier>
+<title>Release of Breeze::OS LiveDVD 1.2RC1</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+LiveDVD Release Candidate [RC1] for version 1.2, is now available.
+
+The booting problem mentioned in the news item &lt;b>2014-12-27&lt;/b> was not resolved.
+We decided to offer a Live-DVD, instead of sticking to releases of CD ISO flavors.
+This version is not yet production ready; because, the package installer has not
+yet been thoroughly tested; and the LiveDVD is being released, mainly, as a
+demonstration DVD. 
+
+Use the script d-iso2usb.sh to burn a persistent version of the LiveDVD on a USB key.
+The command is: &lt;b>d-iso2usb.sh -p -v -i breezeos-live-1.2RC1-i486.iso -o &lt;i>/dev/sdb&lt;/i>&lt;/b>
+The path &lt;b>/dev/sdb&lt;/b> points to your USB device; and, may be different on your computer.
+Use &lt;b>lsblk -f&lt;/b> to be sure, before using the script &lt;b>d-iso2usb.sh&lt;/b>.
+
+The script, used to create the LiveDVD, has been derived from liveslak-0.8.0; and
+is using our package management application &lt;b>brzpkg&lt;/b>. It will be hosted
+on GitHub as livebrz-0.9.0.
+
+The package installer is called &lt;b>brzinst&lt;/b> and can be invoked from a
+terminal window, as root. The command is &lt;b>brzinst --appmode&lt;/b>. 
+
+Type &lt;i>&lt;b>live&lt;/b>&lt;/i> for both the username and password to login.
+
+If you encounter a mouse or keyboard freeze problem, while using &lt;b>brzinst&lt;/b>; just,
+press CTL+ALT-Delete to restart X11. The problem may be due to an ACPI glitch,
+or a bug in X11 (not yet resolved).
+
+The URLs for the LiveDVD are:
+	https://sourceforge.net/projects/breezeos/files/slackware/iso/i486/1.2/breezeos-live-1.2RC1-i486.iso
+	https://sourceforge.net/projects/breezeos/files/slackware/iso/i486/1.2/breezeos-live-1.2RC1-i486.iso.checksums
+	https://sourceforge.net/projects/breezeos/files/slackware/iso/i486/1.2/d-iso2usb.sh
+
+</content-body>
+</message:update>
+
+<message:update>
+<identifier>2017-04-27-01</identifier>
+<title>Release of Breeze::OS V2.0 [amd64]</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+Release of version 2.0 of the Breeze::OS 64-bit GNU/Linux distribution, which
+is based on the Slackware64 14.2 release. The Xfce [4.12], Mate [1.16], and KDE
+[4.14.3] desktops are offered.
+
+The Live DVD ISO is available for download at https://breezeos.sourceforge.io.
+
+The &lt;b>Breeze::OS installer &lt;i>brzinst&lt;/i>&lt;/b>, now includes an encryption page,
+allowing you to setup disk encryption for your installation. It can also be
+invoked, as just another session, by using our display manager &lt;b>brzdm&lt;/b>.
+
+The package manager is now, also offered in a self-run package; allowing it to
+be run independently of the installed packages. You can download it; and
+execute it in console mode. It is located at
+    https://breezeos.sourceforge.io/distfiles/slackware/amd64/2.0/brzpkg-x64.run
+
+</content-body>
+</message:update>
+
+<message:update>
+<identifier>2017-04-27-02</identifier>
+<title>Release of Breeze::OS v1.0 [amd64]</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+Release of version 1.0 of the Breeze::OS 64-bit GNU/Linux distribution, which
+is based on the Slackware64 14.1 release. The Xfce [4.10], Mate [1.8], and KDE
+[4.10.5] desktops are offered.
+
+The Live DVD ISO is available for download at https://breezeos.sourceforge.io.
+
+We decided to release version one, based on Slackware 14.1; because,
+of the migration to &lt;b>pulseaudio&lt;/b> for multimedia for version 2.0.
+
+The &lt;b>Breeze::OS installer &lt;i>brzinst&lt;/i>&lt;/b>, now includes an encryption page,
+allowing you to setup disk encryption for your installation. It can also be
+invoked, as just another session, by using our display manager &lt;b>brzdm&lt;/b>.
+
+The package manager is now, also offered in a self-run package; allowing it to
+be run independently of the installed packages. You can download it; and
+execute it in console mode. It is located at
+    https://breezeos.sourceforge.io/distfiles/slackware/amd64/1.0/brzpkg-x64.run
+
+</content-body>
+</message:update>
+
+<message:update>
+<identifier>2017-04-27-03</identifier>
+<title>Point Release version 1.3 [i486]</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+This point release becomes the new &lt;b>long-term&lt;/b> release for versions
+1.x [32-bit], which is based on the Slackware 14.1 release. The Xfce [4.10],
+Mate [1.8], and KDE [4.10.5] desktops are offered.
+
+A Live DVD ISO is available for download at https://breezeos.sourceforge.io.
+
+The &lt;b>Breeze::OS installer &lt;i>brzinst&lt;/i>&lt;/b>, now includes an encryption page,
+allowing you to setup disk encryption for your installation. It can also be
+invoked, as just another session, by using our display manager &lt;b>brzdm&lt;/b>.
+
+The package manager is now, also offered in a self-run package; allowing it to
+be run independently of the installed packages. You can download it; and
+execute it in console mode. It is located at
+     https://breezeos.sourceforge.io/distfiles/slackware/i486/1.3/brzpkg-x32.run
+
+</content-body>
+</message:update>
+
+<message:update>
+<identifier>2018-04-03</identifier>
+<title>Preliminary Release Date</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+A preliminary date for the new releases of our distro is June 11, 2018.
+All releases will contain the spectre-fixed kernels for the baseline.
+
+Updated kernels for the Slackware versions can be downloaded
+by using the update command of the package manager.
+
+People who subscribe to our distro, will get in addition, the first release
+of our Gtk2-based desktop, named Carbon2 [C2].
+
+Depending on the amount of donations, further releases of the desktop
+using different toolkits [FOX, GTK3, QT4, QT5], may be delayed or accelerated.
+
+The Java version is too be a commercial only release, preliminary called
+Carbon14 [C14].
+</content-body>
+</message:update>
+
+<message:update>
+<identifier>2018-05-15</identifier>
+<title>Portal Announcement</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+Announcing the opening of our Breeze::OS shop, which is attached
+to our main company portal Glyph.Cloud. You will be able to purchase
+cd-roms or flash drives, containing the latest releases of our distribution.
+You will also be able to register to our Breeze::OS subscriptions.
+Other services will also be offered on the Glyph.Cloud portal.
+</content-body>
+</message:update>
+
+<message:update>
+<identifier>2018-05-31</identifier>
+<title>Portal Announcement</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+Our Breeze::OS Glyph.Cloud shop is still under construction.
+We are currently setting up a public key creation feature, to
+secure communications with our prospective clients.
+</content-body>
+</message:update>
+
+<message:update>
+<identifier>2018-06-17</identifier>
+<title>Portal Announcement</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+Announcing that in two weeks; all the work underway to secure our website will be complete.
+Our Breeze::OS shop will then be put online and ready for business. As previously mentioned,
+our Breeze::OS shop is attached to our main company portal Glyph.Cloud.
+</content-body>
+</message:update>
+
+<message:update>
+<identifier>2018-06-21</identifier>
+<title>Portal Announcement</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+Update to the previous post:
+After announcing that in two weeks, all the work underway to secure our website will be complete;
+a possible sabotage of our website and server setup might have taken place. A few more days will
+be required to ascertain to how the sabotage migh t have taken place.
+</content-body>
+</message:update>
+
+<message:update>
+<identifier>2018-07-12</identifier>
+<title>Distro Announcement</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+An updated date for the new releases of our distro is July 29, 2018.
+Releases will contain the spectre-fixed kernels for the baseline.
+</content-body>
+</message:update>
+
+<message:update>
+<identifier>2018-08-29</identifier>
+<title>Distro Announcement</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+Decided to select OpenRC as the Breeze::OS default init system.
+</content-body>
+</message:update>
+
+<message:update>
+<identifier>2018-12-05</identifier>
+<title>Distro Announcement</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+Modified the look-and-feel of the Breeze::OS packager.
+http://www.breezeos.com/images/brzpkg-gui.jpg
+
+Developed a curses interface to the Breeze::OS packager.
+http://www.breezeos.com/images/brzpkg-curses.jpg
+</content-body>
+</message:update>
+
+<message:update>
+<identifier>2019-01-13</identifier>
+<title>Distro Annoucement</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+Added a feature to the package manager which set the access permissions
+on some system folders; such as /usr/lib, to read-only on exit.
+</content-body>
+</message:update>
+
+<message:update>
+<identifier>2019-04-01</identifier>
+<title>Distro Annoucement</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+Added aria2c as another downloading utility, in addition to wget and curl.
+The aria2c functionality will first be added to the package manager.
+</content-body>
+</message:update>
+
+<message:update>
+<identifier>2019-04-27</identifier>
+<title>Distro Annoucement</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+Because of an Expose bug in the Xorg server [ devuan ], modified the Login
+manager brzdm. Simplified the display of widgets, text and icons.
+</content-body>
+</message:update>
+
+<message:update>
+<identifier>2019-10-17</identifier>
+<title>Release of Breeze::OS V2.1 [amd64]</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+Release of version 2.1 of the Breeze::OS 64-bit GNU/Linux distribution, which
+is based on the Slackware64 14.2 release. The Xfce [4.12], Mate [1.16],
+Lxde [0.99.2], and KDE [4.14.3] desktops are offered.
+
+The Live DVD ISO will be available for download at https://breezeos.sourceforge.io.
+
+Use the script named d-make-liveusb.sh to write the ISO to a USB flash drive.
+
+The default &lt;b>Breeze::OS init.d system&lt;/b> is now &lt;b>&lt;i>OpenRC&lt;/i>&lt;/b>.
+
+The &lt;b>Breeze::OS installer &lt;i>brzinst&lt;/i>&lt;/b>, now includes an encryption page,
+allowing you to setup disk encryption for your installation. It can also be
+invoked, as just another session, by using our display manager &lt;b>brzdm&lt;/b>.
+
+The package manager is now, also offered in a self-run package; allowing it to
+be run independently of the installed packages. You can download it; and
+execute it in console mode. It is located at
+    https://breezeos.sourceforge.io/distfiles/slackware/amd64/2.1/brzpkg-x64.run
+
+A new set of GnuPG keys were generated for this version.
+</content-body>
+</message:update>
+
+</message>

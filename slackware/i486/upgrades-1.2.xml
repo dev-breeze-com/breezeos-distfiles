@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE message:feed PUBLIC '-//tsert.com//DTD Packager 1.0.0//EN' 'message.dtd' [
+<!ENTITY copyright 'Copyright 2015, Tsert.com, All Rights Reserved.'>
+]>
+<message
+    xmlns:xlink='http://www.w3.org/1999/xlink'
+    xmlns:dc='http://purl.org/dc/elements/1.1/'
+    xmlns:tsert='http://tsert.com/dtd/tsert/'
+    xmlns:attr='http://tsert.com/dtd/css/'
+    xmlns:message='http://tsert.com/dtd/message/' message:version='1.0.0'>
+<message:header>
+	<identifier>Breeze::OS Upgrades [Slackware Intel/AMD i486]</identifier>
+	<title>Upgrades for Slackware Derivative [i486]</title>
+	<storage>permanent</storage>
+	<submission>manual</submission>
+	<engine>brzpkg v2.0.0</engine>
+	<urgency>normal</urgency>
+	<sender url='http://www.breezeos.com' identifier='dev@breezeos.com'/>
+</message:header>
+
+<message:update>
+<identifier>2015-03-09</identifier>
+<type>point</type>
+<title>Release of Breeze::OS v1.1</title>
+<version>1.1</version>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<url>https://tsert.com/breeze/distfiles/slackware/i486/1.1/metadata.txz</url>
+<description>
+Point release 1.1 of the Breeze::OS GNU/Linux distribution which is based
+on the Slackware 14.1 release. The Xfce, KDE, and Mate flavors are offered.
+The Mate flavor is from the Salix repositories.
+
+No ISO(s), for version 1.1, are currently available; because of the booting
+problem mentioned in the news item number 4. We decided in the meantime
+to try a Live-DVD and a netinstall release for April 2015.
+
+First download the upgrade script and signature in the same folder.
+   wget http://www.breezeos.com/distfiles/slackware/i486/1.1/brz-upgrade.sh
+   wget http://www.breezeos.com/distfiles/slackware/i486/1.1/brz-upgrade.sh.asc
+
+Then, invoke the script with the option '-slack' if you are upgrading from
+a Slackware 14.0/14.1 distro; or without option, if you have our distro
+installed on your computer.
+</description>
+</message:update>
+
+<message:update>
+<identifier>2016-04-11</identifier>
+<type>point</type>
+<title>Release of Breeze::OS v1.2</title>
+<version>1.2</version>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<url>https://tsert.com/breeze/distfiles/slackware/i486/1.2/metadata.txz</url>
+<description>
+This release is the &lt;b>last and long-term&lt;/b> point release for versions 1.x; and it
+is still based on the Slackware 14.1 release, with the Xfce, KDE, and Mate
+desktops being offered, It contains packages, i.e. &lt;i>OpenOffice 4.1.2&lt;/i>, which were
+updated for either enhancements, bugs, or security issues. It also contains a new
+display manager called &lt;b>brzdm&lt;/b> derived from &lt;b>Slim&lt;/b>. The source code for &lt;b>brzdm&lt;/b> will be
+hosted at https://www.github.com. The Linux kernel 4.1.17 has also been added.
+
+The main new features, which have been added to the package manager, are the
+facility to &lt;b>websync&lt;/b> your installation with updated binary packages; as well as,
+the capability to compile from source using &lt;i>slackbuilds&lt;/i>. An additional feature
+was added to view &lt;b>security advisory&lt;/b> from &lt;b>Slackware&lt;/b>. Each package, by default,
+has its checksum and &lt;i>GnuPG&lt;/i> signature verified; you, now, must &lt;b>turn off&lt;/b>
+verification, when desired.
+
+You can, now, just issue the command &lt;b>brzpkg --websync&lt;/b> to download and install
+updated binary packages; &lt;b>brzpkg -A&lt;/b> to view security advisory news; and,
+&lt;b>brzpkg -B &lt;pkg>&lt;/b> or &lt;b>brzpkg -I -b &lt;pkg>&lt;/b> to install a package from source.
+
+Before proceeding, you &lt;b>must first update&lt;/b> the packager itself, by invoking
+'brzpkg --update brzpkg'; then, invoke 'brzpkg --force --upgrade 1.2' to proceed 
+with the upgrade. If a problem occurs, use the script &lt;b>brz-upgrade.sh&lt;/b>.
+</description>
+</message:update>
+</message>

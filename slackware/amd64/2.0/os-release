@@ -1,0 +1,17 @@
+ID=slackware
+TYPE=binary
+NAME=Breeze::OS
+VERSION=2.0
+MEDIA=DVD
+CHECKSUM=sha256
+ARCHITECTURE=amd64
+CODENAME=Yogibear
+SOURCE_DISTRO=slackware
+SOURCE_REPOSITORY=stable
+SOURCE_RELEASE=slackware64-14.2
+RELEASE_DATE=2017-05-01
+RELEASE_NAME=Breeze::OS Community Live Edition (Compleat) v2.0
+CPE_NAME=cpe:/o:tsert.com:breeze_os_live:2.0,slackware,amd64
+HOME_URL=http://www.breezeos.com/
+SUPPORT_URL=http://www.breezeos.com/support
+BUG_REPORT=mailto:bugs@breezeos.com

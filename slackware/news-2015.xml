@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE message:feed PUBLIC '-//tsert.com//DTD Packager 1.0.0//EN' 'message.dtd' [
+<!ENTITY copyright 'Copyright 2014, Tsert.com, All Rights Reserved.'>
+]>
+<message
+    xmlns:xlink='http://www.w3.org/1999/xlink'
+    xmlns:dc='http://purl.org/dc/elements/1.1/'
+    xmlns:tsert='http://tsert.com/dtd/tsert/'
+    xmlns:attr='http://tsert.com/dtd/css/'
+    xmlns:message='http://tsert.com/dtd/message/' message:version='1.0.0'>
+
+<message:header>
+	<identifier>Breeze::OS Distro News</identifier>
+	<title>News for Slackware derivative</title>
+	<storage>permanent</storage>
+	<submission>manual</submission>
+	<engine>brzpkg v2.0.0</engine>
+	<urgency>normal</urgency>
+	<sender url='www.breezeos.com' identifier='dev@breezeos.com'/>
+</message:header>
+
+<message:update>
+<identifier>2015-01-17</identifier>
+<title>Another extremely weird bug !</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+The code, below, which was compiled with GCC 4.7.1 and GCC 4.8.2
+yielded the same correct results with lower_bound indicating the
+right entry in the std::vector of items; even though  it should have
+failed, because the wrong constructor for SetItem was being called.
+After rebooting the system, the right behavior was then exhibited;
+the call failed as expected.
+
+I have currently no explanation for the bug. Again the bug appeared
+on two separate computers; one running Slackware 14.0, and the other
+Slackware 14.1.
+
+bool Set::search(const String&amp; name, SetItem **item) const
+{
+	SetItem key( name );
+	LessThan less( "id" );
+
+	const_iterator it = std::lower_bound( begin(), end(), &amp;key, less );
+
+	if (it != Set::end()) {
+		String found((*it)->getName());
+
+		std::cout &lt;&lt; found &lt;&lt; "\n";
+
+		if (found == name) {
+			(*item) = (*it);
+			return true;
+		}
+	}
+	return false;
+}
+</content-body>
+</message:update>
+
+<message:update>
+<identifier>2015-02-01</identifier>
+<title>Update News (version 1.1)</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+A slight delay in the release of version 1.1; we decided to offer
+the most up-to-date Slackware 14.1 patches. 
+
+We also added a simpler way to manage services, with the use of
+a service manager, called brzctl. The service manager is for now,
+just a managing application; but, we intend to turn it into an
+OpenRC-type daemon and service manager in the future. 
+
+The operations allowed by brzctl are: enabling and disabling services,
+adding and removing services, starting, stopping, and reloading services,
+and setting options for services.
+</content-body>
+</message:update>
+
+<message:update>
+<identifier>2015-03-09</identifier>
+<title>Release of Breeze::OS v1.1</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+Point release 1.1 of the Breeze::OS GNU/Linux distribution which is based
+on the Slackware 14.1 release. The Xfce, KDE, and Mate flavors are offered.
+The Mate flavor is from the Salix repositories.
+
+No ISO(s), for version 1.1, are currently available; because of the booting
+problem mentioned in the news item '2014-12-27'. We decided in the meantime
+to try a Live-DVD and a netinstall release for April 2015.
+
+First download the upgrade script and signature in the same folder.
+   wget http://www.breezeos.com/distfiles/slackware/i486/1.1/brz-upgrade.sh
+   wget http://www.breezeos.com/distfiles/slackware/i486/1.1/brz-upgrade.sh.asc
+
+Then, invoke the script with the option '-slack' if you are upgrading from
+a Slackware 14.0/14.1 distro; or without option, if you have our distro
+installed on your computer.
+</content-body>
+</message:update>
+</message>

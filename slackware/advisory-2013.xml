@@ -1,0 +1,1005 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE message:feed PUBLIC '-//tsert.com//DTD Packager 1.0.0//EN' 'message.dtd' [
+<!ENTITY copyright 'Copyright 2014, Tsert.com, All Rights Reserved.'>
+]>
+<message:feed
+    xmlns:xlink='http://www.w3.org/1999/xlink'
+    xmlns:dc='http://purl.org/dc/elements/1.1/'
+    xmlns:tsert='http://tsert.com/dtd/tsert/'
+    xmlns:attr='http://tsert.com/dtd/css/'
+    xmlns:message='http://tsert.com/dtd/message/' message:version='1.0.0'>
+<message:header>
+	<identifier>Breeze::OS Security Advisories 2016</identifier>
+	<title>Security Advisories for our Slackware derivative</title>
+	<storage>permanent</storage>
+	<submission>manual</submission>
+	<engine>brzpkg v2.0.0</engine>
+	<urgency>normal</urgency>
+	<sender url='www.breezeos.com' identifier='dev@breezeos.com'/>
+</message:header>
+
+<message:update>
+<identifier>2013-12-21/SSA:2013-354-01</identifier>
+<title>Security advisory for gnupg</title>
+<package>gnupg</package>
+<advisory>SSA:2013-354-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.504012</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-12-16/SSA:2013-350-07</identifier>
+<title>Security advisory for seamonkey</title>
+<package>seamonkey</package>
+<advisory>SSA:2013-350-07</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.491961</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-12-16/SSA:2013-350-06</identifier>
+<title>Security advisory for ruby</title>
+<package>ruby</package>
+<advisory>SSA:2013-350-06</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.484609</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-12-16/SSA:2013-350-05</identifier>
+<title>Security advisory for mozilla-thunderbird</title>
+<package>mozilla-thunderbird</package>
+<advisory>SSA:2013-350-05</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.361442</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-12-16/SSA:2013-350-04</identifier>
+<title>Security advisory for mozilla-firefox</title>
+<package>mozilla-firefox</package>
+<advisory>SSA:2013-350-04</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.357101</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-12-16/SSA:2013-350-03</identifier>
+<title>Security advisory for llvm</title>
+<package>llvm</package>
+<advisory>SSA:2013-350-03</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.395467</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-12-16/SSA:2013-350-02</identifier>
+<title>Security advisory for libjpeg</title>
+<package>libjpeg</package>
+<advisory>SSA:2013-350-02</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.518533</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-12-16/SSA:2013-350-01</identifier>
+<title>Security advisory for libiodbc</title>
+<package>libiodbc</package>
+<advisory>SSA:2013-350-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.480127</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-12-05/SSA:2013-339-04</identifier>
+<title>Security advisory for hplip</title>
+<package>hplip</package>
+<advisory>SSA:2013-339-04</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.316749</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-12-05/SSA:2013-339-03</identifier>
+<title>Security advisory for seamonkey</title>
+<package>seamonkey</package>
+<advisory>SSA:2013-339-03</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.493149</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-12-05/SSA:2013-339-02</identifier>
+<title>Security advisory for mozilla-thunderbird</title>
+<package>mozilla-thunderbird</package>
+<advisory>SSA:2013-339-02</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.453754</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-12-05/SSA:2013-339-01</identifier>
+<title>Security advisory for mozilla-nss</title>
+<package>mozilla-nss</package>
+<advisory>SSA:2013-339-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.388284</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-11-18/SSA:2013-322-04</identifier>
+<title>Security advisory for seamonkey</title>
+<package>seamonkey</package>
+<advisory>SSA:2013-322-04</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.491955</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-11-18/SSA:2013-322-03</identifier>
+<title>Security advisory for samba</title>
+<package>samba</package>
+<advisory>SSA:2013-322-03</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.420125</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-11-18/SSA:2013-322-02</identifier>
+<title>Security advisory for openssh</title>
+<package>openssh</package>
+<advisory>SSA:2013-322-02</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.356319</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-11-18/SSA:2013-322-01</identifier>
+<title>Security advisory for mozilla-firefox</title>
+<package>mozilla-firefox</package>
+<advisory>SSA:2013-322-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.446719</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-11-03/SSA:2013-307-01</identifier>
+<title>Security advisory for mozilla-thunderbird</title>
+<package>mozilla-thunderbird</package>
+<advisory>SSA:2013-307-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.410872</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-10-18/SSA:2013-291-01</identifier>
+<title>Security advisory for hplip</title>
+<package>hplip</package>
+<advisory>SSA:2013-291-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.422319</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-10-18/SSA:2013-290-01</identifier>
+<title>Security advisory for libtiff</title>
+<package>libtiff</package>
+<advisory>SSA:2013-290-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.543193</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-10-14/SSA:2013-287-05</identifier>
+<title>Security advisory for xorg-server</title>
+<package>xorg-server</package>
+<advisory>SSA:2013-287-05</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.1093476</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-10-14/SSA:2013-287-04</identifier>
+<title>Security advisory for libgpg-error</title>
+<package>libgpg-error</package>
+<advisory>SSA:2013-287-04</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.341669</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-10-14/SSA:2013-287-03</identifier>
+<title>Security advisory for gnutls</title>
+<package>gnutls</package>
+<advisory>SSA:2013-287-03</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.467196</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-10-14/SSA:2013-287-02</identifier>
+<title>Security advisory for gnupg2</title>
+<package>gnupg2</package>
+<advisory>SSA:2013-287-02</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.392546</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-10-14/SSA:2013-287-01</identifier>
+<title>Security advisory for gnupg</title>
+<package>gnupg</package>
+<advisory>SSA:2013-287-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.501153</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-09-28/SSA:2013-271-01</identifier>
+<title>Security advisory for seamonkey</title>
+<package>seamonkey</package>
+<advisory>SSA:2013-271-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.418619</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-09-17/SSA:2013-260-03</identifier>
+<title>Security advisory for mozilla-thunderbird</title>
+<package>mozilla-thunderbird</package>
+<advisory>SSA:2013-260-03</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.409545</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-09-17/SSA:2013-260-02</identifier>
+<title>Security advisory for mozilla-firefox</title>
+<package>mozilla-firefox</package>
+<advisory>SSA:2013-260-02</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.402780</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-09-17/SSA:2013-260-01</identifier>
+<title>Security advisory for glibc</title>
+<package>glibc</package>
+<advisory>SSA:2013-260-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.1106410</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-09-09/SSA:2013-251-01</identifier>
+<title>Security advisory for subversion</title>
+<package>subversion</package>
+<advisory>SSA:2013-251-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.354028</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-08-30/SSA:2013-242-03</identifier>
+<title>Security advisory for gnutls</title>
+<package>gnutls</package>
+<advisory>SSA:2013-242-03</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.374026</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-08-30/SSA:2013-242-02</identifier>
+<title>Security advisory for php</title>
+<package>php</package>
+<advisory>SSA:2013-242-02</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.343027</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-08-30/SSA:2013-242-01</identifier>
+<title>Security advisory for gnutls</title>
+<package>gnutls</package>
+<advisory>SSA:2013-242-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.354993</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-08-21/SSA:2013-233-03</identifier>
+<title>Security advisory for poppler</title>
+<package>poppler</package>
+<advisory>SSA:2013-233-03</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.347529</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-08-21/SSA:2013-233-02</identifier>
+<title>Security advisory for xpdf</title>
+<package>xpdf</package>
+<advisory>SSA:2013-233-02</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.496284</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-08-21/SSA:2013-233-01</identifier>
+<title>Security advisory for hplip</title>
+<package>hplip</package>
+<advisory>SSA:2013-233-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.511065</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-08-07/SSA:2013-219-03</identifier>
+<title>Security advisory for seamonkey</title>
+<package>seamonkey</package>
+<advisory>SSA:2013-219-03</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.418244</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-08-07/SSA:2013-219-02</identifier>
+<title>Security advisory for mozilla-thunderbird</title>
+<package>mozilla-thunderbird</package>
+<advisory>SSA:2013-219-02</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.405107</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-08-07/SSA:2013-219-01</identifier>
+<title>Security advisory for mozilla-firefox</title>
+<package>mozilla-firefox</package>
+<advisory>SSA:2013-219-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.401510</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-08-06/SSA:2013-218-03</identifier>
+<title>Security advisory for samba</title>
+<package>samba</package>
+<advisory>SSA:2013-218-03</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.432761</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-08-06/SSA:2013-218-02</identifier>
+<title>Security advisory for httpd</title>
+<package>httpd</package>
+<advisory>SSA:2013-218-02</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.547738</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-08-06/SSA:2013-218-01</identifier>
+<title>Security advisory for bind</title>
+<package>bind</package>
+<advisory>SSA:2013-218-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.509431</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-08-03/SSA:2013-215-01</identifier>
+<title>Security advisory for gnupg</title>
+<package>gnupg</package>
+<advisory>SSA:2013-215-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.812049</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-07-16/SSA:2013-197-01</identifier>
+<title>Security advisory for php</title>
+<package>php</package>
+<advisory>SSA:2013-197-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.516041</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-07-10/SSA:2013-191-01</identifier>
+<title>Security advisory for dbus</title>
+<package>dbus</package>
+<advisory>SSA:2013-191-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.347923</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-06-29/SSA:2013-180-02</identifier>
+<title>Security advisory for mozilla-thunderbird</title>
+<package>mozilla-thunderbird</package>
+<advisory>SSA:2013-180-02</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.406513</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-06-29/SSA:2013-180-01</identifier>
+<title>Security advisory for mozilla-firefox</title>
+<package>mozilla-firefox</package>
+<advisory>SSA:2013-180-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.434551</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-06-27/SSA:2013-178-01</identifier>
+<title>Security advisory for ruby</title>
+<package>ruby</package>
+<advisory>SSA:2013-178-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.444315</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-06-23/SSA:2013-174-01</identifier>
+<title>Security advisory for curl</title>
+<package>curl</package>
+<advisory>SSA:2013-174-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.499592</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-06-10/SSA:2013-161-01</identifier>
+<title>Security advisory for php</title>
+<package>php</package>
+<advisory>SSA:2013-161-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.508069</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-05-20/SSA:2013-140-01</identifier>
+<title>Security advisory for kernel</title>
+<package>kernel</package>
+<advisory>SSA:2013-140-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.597338</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-05-16/SSA:2013-136-02</identifier>
+<title>Security advisory for ruby</title>
+<package>ruby</package>
+<advisory>SSA:2013-136-02</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.436989</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-05-16/[slackware-security] mozilla-thunderbird x86_64 packages</identifier>
+<title>Security advisory for mozilla-thunderbird</title>
+<package>mozilla-thunderbird</package>
+<advisory>[slackware-security] mozilla-thunderbird x86_64 packages</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.336863</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-05-15/SSA:2013-135-02</identifier>
+<title>Security advisory for mozilla-thunderbird</title>
+<package>mozilla-thunderbird</package>
+<advisory>SSA:2013-135-02</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.406271</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-05-15/SSA:2013-135-01</identifier>
+<title>Security advisory for mozilla-firefox</title>
+<package>mozilla-firefox</package>
+<advisory>SSA:2013-135-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.398798</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-04-19/SSA:2013-109-01</identifier>
+<title>Security advisory for xorg-server</title>
+<package>xorg-server</package>
+<advisory>SSA:2013-109-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.731240</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-04-07/SSA:2013-097-01</identifier>
+<title>Security advisory for seamonkey</title>
+<package>seamonkey</package>
+<advisory>SSA:2013-097-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.491803</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-04-05/SSA:2013-095-01</identifier>
+<title>Security advisory for subversion</title>
+<package>subversion</package>
+<advisory>SSA:2013-095-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.515254</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-04-03/SSA:2013-093-02</identifier>
+<title>Security advisory for mozilla-thunderbird</title>
+<package>mozilla-thunderbird</package>
+<advisory>SSA:2013-093-02</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.405485</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-04-03/SSA:2013-093-01</identifier>
+<title>Security advisory for mozilla-firefox</title>
+<package>mozilla-firefox</package>
+<advisory>SSA:2013-093-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.396537</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-03-28/SSA:2013-087-01</identifier>
+<title>Security advisory for libssh</title>
+<package>libssh</package>
+<advisory>SSA:2013-087-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.339814</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-03-27/SSA:2013-086-02</identifier>
+<title>Security advisory for dhcp</title>
+<package>dhcp</package>
+<advisory>SSA:2013-086-02</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.509171</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-03-27/SSA:2013-086-01</identifier>
+<title>Security advisory for bind</title>
+<package>bind</package>
+<advisory>SSA:2013-086-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.511865</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-03-23/SSA:2013-081-01</identifier>
+<title>Security advisory for php</title>
+<package>php</package>
+<advisory>SSA:2013-081-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.506938</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-03-16/SSA:2013-075-01</identifier>
+<title>Security advisory for ruby</title>
+<package>ruby</package>
+<advisory>SSA:2013-075-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.426862</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-03-13/SSA:2013-072-02</identifier>
+<title>Security advisory for seamonkey</title>
+<package>seamonkey</package>
+<advisory>SSA:2013-072-02</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.494943</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-03-13/SSA:2013-072-01</identifier>
+<title>Security advisory for perl</title>
+<package>perl</package>
+<advisory>SSA:2013-072-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.424686</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-03-09/SSA:2013-068-02</identifier>
+<title>Security advisory for mozilla-thunderbird</title>
+<package>mozilla-thunderbird</package>
+<advisory>SSA:2013-068-02</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.410794</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-03-09/SSA:2013-068-01</identifier>
+<title>Security advisory for mozilla-firefox</title>
+<package>mozilla-firefox</package>
+<advisory>SSA:2013-068-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.397905</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-03-06/SSA:2013-065-01</identifier>
+<title>Security advisory for sudo</title>
+<package>sudo</package>
+<advisory>SSA:2013-065-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.517440</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-03-03/SSA:2013-062-01</identifier>
+<title>Security advisory for httpd</title>
+<package>httpd</package>
+<advisory>SSA:2013-062-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.533486</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-02-25/SSA:2013-056-01</identifier>
+<title>Security advisory for seamonkey</title>
+<package>seamonkey</package>
+<advisory>SSA:2013-056-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.493597</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-02-19/SSA:2013-050-02</identifier>
+<title>Security advisory for mozilla-thunderbird</title>
+<package>mozilla-thunderbird</package>
+<advisory>SSA:2013-050-02</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.406431</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-02-19/SSA:2013-050-01</identifier>
+<title>Security advisory for mozilla-firefox</title>
+<package>mozilla-firefox</package>
+<advisory>SSA:2013-050-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.396847</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-02-13/SSA:2013-044-01</identifier>
+<title>Security advisory for pidgin</title>
+<package>pidgin</package>
+<advisory>SSA:2013-044-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.510020</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-02-11/SSA:2013-042-01</identifier>
+<title>Security advisory for openssl</title>
+<package>openssl</package>
+<advisory>SSA:2013-042-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.411625</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-02-09/SSA:2013-040-01</identifier>
+<title>Security advisory for openssl</title>
+<package>openssl</package>
+<advisory>SSA:2013-040-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.839296</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-02-07/SSA:2013-038-01</identifier>
+<title>Security advisory for curl</title>
+<package>curl</package>
+<advisory>SSA:2013-038-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.386916</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-01-22/SSA:2013-022-01</identifier>
+<title>Security advisory for mysql</title>
+<package>mysql</package>
+<advisory>SSA:2013-022-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.506700</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-01-15/SSA:2013-015-01</identifier>
+<title>Security advisory for freetype</title>
+<package>freetype</package>
+<advisory>SSA:2013-015-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.520186</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-01-10/SSA:2013-009-03</identifier>
+<title>Security advisory for seamonkey</title>
+<package>seamonkey</package>
+<advisory>SSA:2013-009-03</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.491959</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-01-10/SSA:2013-009-02</identifier>
+<title>Security advisory for mozilla-thunderbird</title>
+<package>mozilla-thunderbird</package>
+<advisory>SSA:2013-009-02</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.406628</content-location>
+</message:update>
+
+<message:update>
+<identifier>2013-01-10/SSA:2013-009-01</identifier>
+<title>Security advisory for mozilla-firefox</title>
+<package>mozilla-firefox</package>
+<advisory>SSA:2013-009-01</advisory>
+<urgency>normal</urgency>
+<derivative>slackware</derivative>
+<source>www.slackware.com</source>
+<content-charset>UTF-8</content-charset>
+<content-location>http://www.slackware.com/security/viewer.php?l=slackware-security&y=2013&m=slackware-security.397420</content-location>
+</message:update>
+
+</message:feed>

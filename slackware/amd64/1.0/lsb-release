@@ -1,0 +1,5 @@
+DISTRIB_ID=slackware
+DISTRIB_CODENAME=Gummibear
+DISTRIB_DESCRIPTION="Breeze::OS Community Live Edition (Compleat) GNU/Linux"
+DISTRIB_RELEASE=1.0 (Community Live Edition GNU/Linux 64-bit) -- release build 20170501"
+X_INSTALLATION_MEDIUM=cdrom,zip

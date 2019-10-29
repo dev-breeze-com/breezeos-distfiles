@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE message:feed PUBLIC '-//tsert.com//DTD Packager 1.0.0//EN' 'message.dtd' [
+<!ENTITY copyright 'Copyright 2014, Tsert.com, All Rights Reserved.'>
+]>
+<message
+    xmlns:xlink='http://www.w3.org/1999/xlink'
+    xmlns:dc='http://purl.org/dc/elements/1.1/'
+    xmlns:tsert='http://tsert.com/dtd/tsert/'
+    xmlns:attr='http://tsert.com/dtd/css/'
+    xmlns:message='http://tsert.com/dtd/message/' message:version='1.0.0'>
+
+<message:header>
+	<identifier>Breeze::OS Distro News</identifier>
+	<title>News for Slackware derivative</title>
+	<storage>permanent</storage>
+	<submission>manual</submission>
+	<engine>brzpkg v2.0.0</engine>
+	<urgency>normal</urgency>
+	<sender url='www.breezeos.com' identifier='dev@breezeos.com'/>
+</message:header>
+
+<message:update>
+<identifier>2014-09-08</identifier>
+<title>Release of Breeze::OS v1.0</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+Initial release of the Breeze::OS GNU/Linux distribution which is based
+on the Slackware 14.1 release. Only the Xfce and KDE flavors are offered
+for the initial release. Each flavor comes with either, the i486 or PAE
+linux kernels. All ISO(s) can be downloaded from our website
+at http://tsert.com/breeze/download.html
+</content-body>
+</message:update>
+
+<message:update>
+<identifier>2014-10-02</identifier>
+<title>X11/Xorg Bug Report for Breeze::OS v1.0</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+A weird bug has surfaced in our X11 installation. The bug seems to cause
+the X procotol for mouse inputs, to grab focus in a particular window; and,
+to refuse to release it. The same bug appears in all our installations, and
+on several computers. We have not succeeded in resolving the issue.
+
+A, temporary, solution is to logout, and login a second time; which seems to
+make the X11 installation more stable.
+</content-body>
+</message:update>
+
+<message:update>
+<identifier>2014-12-17</identifier>
+<title>Upcoming Release of Breeze::OS v1.1</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+The next release of the Breeze::OS GNU/Linux distribution, which is still
+based on the Slackware 14.1 release; will be available for download in
+January 2015.
+
+The Mate flavor, taken from the Salix repositories, was added to the set of
+available flavors, i.e. Xfce and KDE.
+
+Each flavor comes with either, the i486 or PAE Linux kernels.
+All ISO(s) will be available for download from our website at
+http://tsert.com/breeze/download.html or from SourceForge at
+http://breezeos.sourceforge.net.
+
+New features have been added to the package manager. Other features
+have been removed; such as, updating from the current repository.
+
+It is now easier to update packages, just by issuing the command:
+	't-pkg -U &lt;package name&gt;'
+It is no longer necessary to wait for an RSS/Message feed from our website.
+It is also easier to upgrade, just by issuing the command 't-pkg --upgrade'.
+
+</content-body>
+</message:update>
+
+<message:update>
+<identifier>2014-12-27</identifier>
+<title>Booting problems with uploaded ISOs for i486 kernels</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+For some reasons, the ISO(s), which were burned with non-PAE i486 kernels,
+no longer are able to boot. Booting simply stops after the Linux logo is
+displayed. The ISO(s), which were burned with PAE i486 kernels, do boot; but,
+the X11 installer seizes, refusing to recognize keyboard and mouse inputs.
+
+The above problems were detected; because, we were unable to burn working
+PAE and non-PAE i486 ISO(s) for release 1.1; even though, the same code
+base of our installer was being used.
+
+It is what caused us to examine the ISO(s) released in September 8, 2014.
+As a consequence, we may reboot v1.0, by turning v1.1 into v1.0.
+
+The problem listed above with the non-PAE kernels does not occur; when the
+same kernel is used to boot within a normal desktop environment.
+</content-body>
+</message:update>
+
+<message:update>
+<identifier>2014-12-30</identifier>
+<title>Major VFS problem detected</title>
+<derivative>slackware</derivative>
+<source>www.breezeos.com</source>
+<content-type>text/plain</content-type>
+<content-charset>UTF-8</content-charset>
+<content-body>
+In our installer development environment, we detected a weird filesystem
+bug, which caused files to revert to previous versions. At first, we thought
+that a failing drive was the problem; but, since the problem was detected
+on all our computers running Linux, we could only assume that a VFS bug was
+the culprit. Our computers are running Debian wheezy, Slackware 14.0, and
+Slackware 14.1, respectively.
+
+The problem was detected by randomizing the source code file names, and
+obfuscating the source code within the files, of our installer. We then,
+created a compilation folder, and iteratively copied the randomized and
+obfuscated source code files onto the same folder, on every compilation.
+
+After a few iterations, the Gnu make compilation tool would encounter an
+error, because of undefined symbols, which could only be found in a previous
+version of an obfuscated source code file. This problem definitely proved
+that the VFS was the culprit. Somehow the same inode is being re-used, as
+a new file gets created.
+
+We will upload a script to detect the problem in a few weeks, as we release
+the rebooted version 1.0 of our Breeze::OS distro.
+
+</content-body>
+</message:update>
+</message>
